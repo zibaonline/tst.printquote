@@ -1,0 +1,4452 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectTheme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-03 21:57+0200\n"
+"PO-Revision-Date: 2013-04-03 21:57+0200\n"
+"Last-Translator: sitemile <sitemile@sitemile.com>\n"
+"Language-Team: sitemile.com <sitemile@sitemile.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\Users\\andrei\\Desktop\\sitemile_themes\\ProjectTheme"
+"\\\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: C:\\Users\\andrei\\Desktop\\sitemile_themes"
+"\\ProjectTheme\n"
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/404.php:33
+msgid "Page Not Found"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/404.php:35
+msgid ""
+"The requested page cannot be found. Maybe your project has not been approved "
+"yet."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/archive-project.php:90
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/taxonomy.php:91
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/all-posted-projects.php:28
+msgid "All Posted Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/archive-project.php:91
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/taxonomy.php:92
+#, php-format
+msgid "Latest Posted Projects in %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/archive-project.php:111
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/taxonomy.php:121
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:264
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:132
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:268
+msgid "No projects posted."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/archive.php:44
+#, php-format
+msgid "Daily Blog Archives: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/archive.php:46
+#, php-format
+msgid "Monthly Blog Archives: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/archive.php:48
+#, php-format
+msgid "Yearly Blog Archives: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/archive.php:50
+msgid "Blog Archives"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/autosuggest.php:82
+msgid "No results found"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/comments.php:4
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/comments.php:27
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/comments.php:28
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/comments.php:29
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:425
+#, php-format
+msgid "%s previous value: %s new value: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:440
+#, php-format
+msgid "%s (%s) has changed one or more fields"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:834
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4086
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4294
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4493
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4645
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4822
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4983
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5130
+msgid "Posted in"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:843
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:700
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:299
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:196
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:856
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:164
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:542
+msgid "Location"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:846
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:70
+msgid "not defined"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:966
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-feedback.php:38
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:309
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:33
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:95
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:155
+msgid "Project Title"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:967
+msgid "Author"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:968
+msgid "Posted On"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:969
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1147
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:294
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:362
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:111
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-feedback.php:41
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:312
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:36
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:98
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:158
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:496
+msgid "Price"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:970
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4180
+msgid "Expires in"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:971
+msgid "Featured"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:972
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1663
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1793
+msgid "Approved"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:973
+msgid "Thumbnail"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:974
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1563
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1664
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1794
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1907
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1987
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3004
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3069
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3133
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3216
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3304
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3392
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/provider_search.php:102
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:37
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:319
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:85
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:139
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:226
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:330
+msgid "Options"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1015
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1166
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1579
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:865
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:609
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1690
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1824
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3458
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3722
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5849
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:553
+msgid "Yes"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1016
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1165
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:609
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1690
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1824
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3458
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3722
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5849
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/choose_winner.php:130
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/mark_completed.php:80
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/mark_delivered.php:78
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:552
+msgid "No"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1055
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2471
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:857
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:222
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:326
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:377
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:544
+msgid "Select"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1163
+msgid "Sealed Bids"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1173
+msgid "Feature this project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1179
+msgid "Hide this project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1185
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4181
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4406
+msgid "Closed"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1191
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1179
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:212
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:862
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:562
+msgid "Address"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1211
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:143
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:674
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:526
+msgid "Project Ending On"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1421
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/bidding-panel.php:163
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:496
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:758
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:424
+msgid "Select Project Files"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1558
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:808
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2999
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3063
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3128
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3211
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3299
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3387
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/provider_search.php:100
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:152
+msgid "Username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1559
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:809
+msgid "Bid Amount"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1560
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:810
+msgid "Date Made"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1562
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4540
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4713
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5037
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5187
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:821
+msgid "Winner"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1580
+msgid "Remove Winner"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1588
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:3973
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:877
+msgid "No bids placed yet."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1770
+msgid "Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1771
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1903
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1983
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:316
+msgid "Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1772
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1775
+msgid "Add New Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1773
+msgid "New Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1774
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4119
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4342
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:18
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:341
+msgid "Edit Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1776
+msgid "Search Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1797
+msgid "Project Categories"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1799
+msgid "Locations"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1810
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/choose_user_tp.php:66
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:129
+msgid "Service Provider"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:1815
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/choose_user_tp.php:67
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:130
+msgid "Service Contractor"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2085
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1715
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:7757
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:7894
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/provider_search.php:161
+msgid "Previous"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2086
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1735
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:7777
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:7914
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/provider_search.php:177
+msgid "Next"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2087
+msgid "First"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2088
+msgid "Last"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2149
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:708
+msgid "Posted on"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2149
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4087
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4295
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4494
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4646
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4823
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4984
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5131
+msgid "by"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2155
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4101
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4324
+msgid "Read More"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2261
+msgid "My Account Menu"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2266
+msgid "MyAccount Home"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2272
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:154
+msgid "Payments"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2273
+#, php-format
+msgid "Private Messages %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2274
+msgid "Personal Info"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2275
+#, php-format
+msgid "Reviews/Feedback %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2291
+msgid "Service Contractor Menu"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2349
+msgid "Post New Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2350
+msgid "Active Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2351
+msgid "Closed Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2352
+#, php-format
+msgid "Unpublished Projects %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2353
+#, php-format
+msgid "Awaiting Completion %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2354
+#, php-format
+msgid "Outstanding Payments %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2355
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/completed_projects.php:27
+msgid "Completed Payments"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2371
+msgid "Service Provider Menu"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2424
+msgid "Won Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2425
+#, php-format
+msgid "Outstanding Projects %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2426
+#, php-format
+msgid "Awaiting Payments %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2427
+msgid "Delivered & Paid Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:2430
+msgid "Projects I bid"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:3897
+msgid "(No rating)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:3910
+#, php-format
+msgid "on %s rating(s)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4095
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4318
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4994
+msgid "Pay This"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4112
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4335
+msgid "Publish"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4127
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4350
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:18
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:232
+msgid "Repost Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4136
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4359
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1234
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:356
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:521
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:102
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:157
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:244
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:349
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:269
+msgid "Delete"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4153
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4511
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4684
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4862
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5007
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5157
+msgid "Budget"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4167
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:628
+msgid "Average Bid"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4174
+msgid "Bids Posted"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4303
+msgid "Your project is awaiting moderation."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4377
+msgid "Budget:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4397
+msgid "Location:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4405
+msgid "Expires in:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4525
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4698
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4876
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5021
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5171
+msgid "Winning Bid"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4554
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4727
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4891
+msgid "Delivery On"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4655
+msgid "The winner must mark this as delivered."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4665
+#, php-format
+msgid "Marked as delivered on: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4666
+msgid "Accept this project and: "
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4668
+msgid "Mark Completed"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4833
+msgid "Mark Delivered"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:4843
+#, php-format
+msgid "Awaiting buyer response.<br/>Marked as delivered on: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5141
+#, php-format
+msgid "Paid on: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5217
+msgid "Expired"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5219
+#, php-format
+msgid "%s hours, %s min, %s sec"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5222
+msgid "days"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5222
+msgid "day"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:5223
+#, php-format
+msgid "%s %s, %s hours, %s min"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6388
+msgid "Single Page Sidebar"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6390
+msgid "The sidebar area of the single blog post"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6398
+msgid "Other Page Sidebar"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6400
+msgid "The sidebar area of any other page than the defined ones"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6411
+msgid "Home Page Sidebar - Right"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6413
+msgid "The right sidebar area of the homepage"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6424
+msgid "Home Page Sidebar - Left"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6426
+msgid "The left sidebar area of the homepage"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6436
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6438
+msgid "The first footer widget area"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6447
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6449
+msgid "The second footer widget area"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6458
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6460
+msgid "The third footer widget area"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6469
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6471
+msgid "The fourth footer widget area"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6481
+msgid "ProjectTheme - Project Single Sidebar"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6483
+msgid "The sidebar of the single project page"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6492
+msgid "ProjectTheme - HomePage Area"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6494
+msgid "The sidebar for the main page, just under the slider."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6503
+msgid "ProjectTheme - Stretch Wide Sidebar"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:6505
+msgid "The sidebar sidewide stretched, just under the slider."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:7434
+#, php-format
+msgid "Your payment was completed for the project: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:7435
+#, php-format
+msgid ""
+"You have paid for the project <a href=\"%s\">%s</a> the amount of: %s %s to "
+"user: \n"
+"\t<b>%s</b>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:7441
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:7455
+#, php-format
+msgid "Details for closed Project: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:7442
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:7456
+#, php-format
+msgid ""
+"The project <a href=\"%s\">%s</a> was just closed. Here is the user email "
+"for the other party: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:7449
+#, php-format
+msgid "Your have received payment for the project: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:7450
+#, php-format
+msgid ""
+"You have been just paid for the project <a href=\"%s\">%s</a> the amount of: "
+"%s %s from user: \n"
+"\t<b>%s</b>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:7469
+#, php-format
+msgid "Payment sent to <a href=\"%s\">%s</a> for project <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:7489
+#, php-format
+msgid ""
+"Payment received from <a href=\"%s\">%s</a> for project <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/functions.php:7495
+#, php-format
+msgid "Payment fee for project <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:163
+msgid "Project RSS Feed"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:169
+msgid "Wp-Admin"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:195
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:337
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:127
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:444
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:154
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:189
+msgid "Home"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:196
+msgid "Advanced Search"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:212
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:33
+msgid "Post New"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:216
+msgid "Blog"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:231
+msgid "MyAccount"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:232
+msgid "Log Out"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:242
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:129
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:446
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:81
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:150
+msgid "Register"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:243
+msgid "Log In"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:284
+msgid "Start Search"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:346
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:158
+msgid "Project Search"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:357
+msgid "Provider Search"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:368
+msgid "All Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:379
+msgid "Show All Categories"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/header.php:397
+msgid "Show All Locations"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/latest-projects.php:14
+msgid "Latest Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/latest-projects.php:44
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/featured-projects.php:56
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/latest-posted-projects.php:52
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/most-visited-projects.php:54
+msgid "Sorry, there are no posted projects yet."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/search.php:41
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:152
+#, php-format
+msgid "Payment for bidding on project: <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:186
+msgid "Your bid must be numeric type. Eg: 9.99"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:191
+msgid "Your cannot bid your own projects."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:272
+#, php-format
+msgid "Project \"%s\" is marked hidden."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:274
+#, php-format
+msgid ""
+"The project \"%s\" was marked as hidden. <a href=\"%s\">Please login</a> to "
+"see project details."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:351
+msgid "Report offensive project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:353
+msgid "This project has been reported as offensive"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:367
+msgid "Thank you! Your report has been submitted."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:386
+msgid "Slow down buddy! You reported this before."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:404
+msgid "Report this project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:411
+msgid "Reason for reporting"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:420
+msgid "Submit Report"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:477
+msgid "Thank you! Your message has been sent."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:495
+msgid "Slow down buddy!."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:521
+msgid "Featured Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:524
+msgid "Private Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:592
+msgid "Your bid has not been posted. Please correct the errors and try again."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:607
+msgid "Your bid has been posted."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:622
+msgid "Project Budget"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:647
+msgid "Place a bid on this project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:677
+msgid "Project closed for price: "
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:715
+msgid "Time Left"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:717
+msgid "Expired/Closed"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:727
+msgid "Message Board"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:728
+msgid "Show Project Message Board"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:750
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1905
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1985
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/bidding-panel.php:246
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:220
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:920
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:191
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:569
+msgid "Description"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:773
+msgid "Posted Bids"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:775
+msgid "[project has private bids]"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:811
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/bidding-panel.php:113
+msgid "Days to Complete"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:814
+msgid "Choose Winner"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:817
+msgid "Bid Files"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:818
+msgid "Messaging"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:860
+msgid "Get Files"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:861
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/message-board.php:122
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:764
+msgid "Send Message"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:898
+msgid "Image Gallery"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:922
+msgid "No images."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:944
+msgid "Map Location"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1051
+msgid "Seller Details"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1056
+msgid "Posted by"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1068
+msgid "Feedback"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1072
+msgid "View User Feedback"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1076
+msgid "Has created:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1077
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1083
+#, php-format
+msgid "%s project(s)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1082
+msgid "Has closed:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1088
+msgid "Has rated:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1089
+#, php-format
+msgid "%s provider(s)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1094
+msgid "See More Projects by this user"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1109
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:468
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:729
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:393
+msgid "Project Files"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1115
+msgid "No project files."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1134
+msgid "Other Options"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1156
+msgid "Other Details"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1162
+msgid "Bids"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1168
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:304
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:103
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:635
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:374
+msgid "Category"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1196
+msgid "Viewed"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1197
+msgid "times"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1232
+msgid "Edit"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1233
+msgid "Repost"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1238
+msgid "Report"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/single-project.php:1245
+msgid "Contact Seller"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:66
+msgid "Payment received from site admin"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:80
+msgid "Payment subtracted by site admin"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:107
+msgid "Project Theme"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:108
+msgid "Site Overview"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:109
+msgid "General Options"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:110
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4125
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4345
+msgid "Email Settings"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:112
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5848
+msgid "Pricing Settings"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:113
+msgid "Custom Pricing"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:115
+msgid "Custom Fields"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:118
+msgid "User Fields"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:120
+msgid "Images Options"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:122
+msgid "Advertising"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:125
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3717
+msgid "Layout Settings"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:128
+msgid "Payment Gateways"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:133
+msgid "Withdrawals"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:135
+msgid "Escrows"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:138
+msgid "User Balances"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:140
+msgid "User Reviews"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:142
+msgid "User Types"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:144
+msgid "Private Messages"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:147
+msgid "Orders"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:150
+msgid "InSite Transactions"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:152
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:608
+msgid "Tracking Tools"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:154
+msgid "Theme Info"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:269
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:280
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:288
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:623
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:631
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3482
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3490
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3498
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3506
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3515
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3734
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3741
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3748
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3756
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3976
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3984
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3992
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4000
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4143
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4151
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4159
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4168
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4177
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4186
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4195
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4204
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4213
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4222
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4231
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4242
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4251
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4260
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4269
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4278
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4287
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4296
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4307
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4316
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4325
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4334
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5885
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5905
+msgid "Settings saved!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:489
+msgid "Filter Email Addresses (private messages):"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:495
+msgid "Filter URLs (private messages):"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:504
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:538
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:579
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:666
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:696
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3594
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3624
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3653
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3689
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3822
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3886
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3910
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3940
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4029
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4054
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4078
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4102
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4445
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4511
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4575
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4638
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4703
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4767
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4832
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4895
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4962
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5029
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5093
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5158
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5224
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5289
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5353
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5418
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5481
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5544
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5608
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5646
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5700
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5753
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5960
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:6095
+msgid "Save Options"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:519
+msgid "Enable Facebook Login:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:525
+msgid "Facebook App ID:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:531
+msgid "Facebook Secret Key:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:551
+msgid "Enable Twitter Login:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:557
+msgid "Twitter Consumer Key:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:563
+msgid "Twitter Consumer Secret:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:570
+msgid "Callback URL:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:641
+msgid "Google Analytics"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:642
+msgid "Other Tracking Tools"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:652
+msgid "Enable Google Analytics:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:658
+msgid "Analytics Code:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:682
+msgid "Enable Other Tracking:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:688
+msgid "Other Tracking Code:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:727
+msgid "Main Information"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:728
+msgid "From SiteMile Blog"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:737
+msgid "ProjectTheme Version:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:742
+msgid "ProjectTheme Latest Release:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:747
+msgid "WordPress Version:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:753
+msgid "Go to SiteMile official page:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:758
+msgid "Go to Project official page:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:763
+msgid "Go to support forums:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:768
+msgid "Contact SiteMile Team:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:773
+msgid "Like us on Facebook:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:779
+msgid "Follow us on Twitter:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1063
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/delivered_projects.php:77
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/outstanding_project.php:71
+msgid "There are no outstanding projects yet."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1208
+msgid "There are no delivered projects yet."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1358
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/completed_projects.php:63
+msgid "There are no completed projects yet."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1512
+msgid "There are no paid projects yet."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1556
+msgid "All Private Messages"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1557
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1762
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1884
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1958
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3184
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3271
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3359
+msgid "Search User"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1587
+msgid "The message has been approved."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1597
+msgid "Are you sure you want to approve this message?"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1598
+msgid "Yes, Approve!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1659
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1789
+msgid "Sender"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1660
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1790
+msgid "Receiver"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1661
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1791
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:83
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:137
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:224
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:328
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:728
+msgid "Subject"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1662
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1792
+msgid "Sent On"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1691
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1825
+msgid "Approve"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1698
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1832
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:499
+#, php-format
+msgid "File Attached: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1745
+msgid "There are no private messages."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1763
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1959
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3185
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3272
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3360
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/provider_search.php:218
+msgid "Search"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1847
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3251
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3339
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3427
+msgid "There are no results for your search."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1883
+msgid "All User Reviews"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1902
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1982
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4366
+msgid "Rated User"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1904
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1984
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-feedback.php:42
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:313
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:159
+msgid "Rating"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1906
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1986
+msgid "Awarded On"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:1944
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2024
+msgid "There are no user feedback."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2707
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:94
+#, php-format
+msgid "Payment received from %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2711
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:99
+#, php-format
+msgid "Payment fee for project %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2721
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2734
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:108
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:120
+msgid "Money Escrow Completed"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2722
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:109
+#, php-format
+msgid "You have released the escrow of: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2735
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:121
+#, php-format
+msgid "You have received the amount of: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2746
+msgid "Escrow completed!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2775
+msgid "Escrow closed!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2962
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2963
+#, php-format
+msgid "Your withdrawal has been completed: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2968
+#, php-format
+msgid "Withdraw to PayPal to email: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2978
+msgid "Unresolved Requests"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2979
+msgid "Resolved Requests"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2980
+msgid "Rejected Requests"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2981
+msgid "Search Unresolved"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2982
+msgid "Search Solved"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:2983
+msgid "Search Rejected"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3000
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3064
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3212
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3300
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3388
+msgid "Method"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3001
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3065
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3129
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3213
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3301
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3389
+msgid "Details"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3002
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3066
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3130
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3214
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3302
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3390
+msgid "Date Requested"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3003
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3067
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3131
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3215
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3303
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3391
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:318
+msgid "Amount"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3026
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3092
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3155
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3238
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3326
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3414
+msgid "Make Complete"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3027
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3093
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3156
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3239
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3327
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3415
+msgid "Deny Request"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3027
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3093
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3156
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3239
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3327
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3415
+msgid "Completed"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3027
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3093
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3156
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3239
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3327
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3415
+msgid "Rejected"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3039
+msgid "There are no unresolved withdrawal requests."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3068
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3132
+msgid "Date Released"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3105
+msgid "There are no resolved withdrawal requests."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3168
+msgid "There are no rejected withdrawal requests."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3536
+msgid "Bank Payment(offline)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3547
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3609
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3638
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3672
+msgid "Enable:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3553
+msgid "PayPal Enable Sandbox:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3559
+msgid "PayPal Email Address:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3565
+msgid "Enable PayPal Adaptive:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3571
+msgid "Signature:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3576
+msgid "API Password:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3581
+msgid "API User:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3586
+msgid "Application ID:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3615
+msgid "Payza/Alertpay Email:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3644
+msgid "MoneyBookers Email:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3678
+msgid "Your Bank Details:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3769
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4007
+msgid "HomePage"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3770
+msgid "Header"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3771
+msgid "Footer"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3772
+msgid "Change Colors"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3781
+msgid "Color for background:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3806
+msgid "Color for footer:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3813
+msgid "Color for top links:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3838
+msgid "The layout of the homepage."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3839
+msgid "Choose from the home page layouts available:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3843
+msgid "Content + Right Sidebar:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3851
+msgid "Content + Left Sidebar + Right Sidebar:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3859
+msgid "Left Sidebar + Content + Right Sidebar:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3867
+msgid "Left Sidebar + Content:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3875
+msgid "Content:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3901
+msgid "Eg: http://your-site-url.com/images/logo.jpg"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3902
+msgid "Logo URL:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3924
+msgid "This will appear in the left side of the footer area."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3925
+msgid "Left side footer area content:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3931
+msgid "This will appear in the right side of the footer area."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3932
+msgid "Right side footer area content:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:3963
+msgid "Advertising Spaces"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4008
+msgid "Project Single Page"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4009
+msgid "Category Page"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4010
+msgid "Single Blog/Normal Page"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4016
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4041
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4065
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4089
+msgid "Above the content area:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4022
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4047
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4071
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4095
+msgid "Below the content area:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4346
+msgid "New User Email"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4347
+msgid "New User Email (admin)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4349
+msgid "Post Project Not Approved Email (admin)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4350
+msgid "Post Project Auto Approved Email (admin)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4351
+msgid "Post Project Not Approved Email"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4352
+msgid "Post Project Auto Approved Email"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4356
+msgid "Delivered Project (owner)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4357
+msgid "Delivered Project (bidder)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4361
+msgid "Completed Project (owner)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4362
+msgid "Completed Project (bidder)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4365
+msgid "Private Message Received"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4369
+msgid "Won Project(owner)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4370
+msgid "Won Project(winner)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4371
+msgid "Won Project(losers)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4373
+msgid "Bid Project(bidder)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4374
+msgid "Bid Project(owner)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4376
+msgid "Message Board(owner)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4377
+msgid "Message Board(bidder)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4381
+msgid "Project Subscription Notification"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4382
+msgid "Payment on Completed Project (owner)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4393
+msgid ""
+"This email will be received by the owner of the project after he accepts the "
+"project as delivered. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4404
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4469
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4534
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4597
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4660
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4725
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4789
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4854
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4918
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4986
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5051
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5117
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5183
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5246
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5310
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5378
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5441
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5505
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5569
+msgid "Enable this email:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4410
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4476
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4540
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4603
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4666
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4731
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4795
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4860
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4924
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4992
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5057
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5123
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5189
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5252
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5316
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5384
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5447
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5511
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5575
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5666
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5721
+msgid "Email Subject:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4418
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4484
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4548
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4611
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4674
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4739
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4804
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4868
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4932
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5000
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5065
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5131
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5197
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5260
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5324
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5392
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5455
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5519
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5583
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5674
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5729
+msgid "Email Content:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4428
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4494
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4558
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4621
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4684
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4749
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4814
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4878
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4942
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5010
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5075
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5141
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5207
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5270
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5334
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5402
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5465
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5529
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5593
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5685
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5739
+msgid "Here is a list of tags you can use in this email:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4430
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4560
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5272
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5336
+msgid "Project Owner's Username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4431
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4497
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4561
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4624
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4687
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4752
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4817
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4881
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4945
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5014
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5079
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5144
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5210
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5273
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5337
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5405
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5468
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5531
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5595
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5690
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5743
+msgid "the link to your user login page"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4432
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4498
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4562
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4625
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4688
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4753
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4818
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4882
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4946
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5015
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5080
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5145
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5211
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5274
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5338
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5406
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5469
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5532
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5596
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5691
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5744
+msgid "your website's name"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4433
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4499
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4563
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4626
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4689
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4754
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4819
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4883
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4947
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5016
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5081
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5146
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5212
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5275
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5339
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5407
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5470
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5533
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5597
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5692
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5745
+msgid "your website's main address"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4434
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4500
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4564
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4627
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4690
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4755
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4820
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4884
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4948
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5017
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5082
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5147
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5213
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5277
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5341
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5408
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5471
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5534
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5598
+msgid "your website's my account link"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4435
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4501
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4565
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4628
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4691
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4756
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4821
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4885
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4949
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5018
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5083
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5148
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5214
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5278
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5342
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5409
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5472
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5535
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5599
+msgid "new new project's title"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4436
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4502
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4566
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4629
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4692
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4757
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4822
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4886
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4950
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5019
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5084
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5149
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5215
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5279
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5343
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5410
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5473
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5536
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5600
+msgid "link for the new project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4458
+msgid ""
+"This email will be received by the bidder/provider after the owner of the "
+"projects accepts the project as delivered. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4496
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4623
+msgid "Bidder's Username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4523
+msgid ""
+"This email will be received by the owner of the project when the provider "
+"marks the project as completed. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4586
+msgid ""
+"This email will be received by the provider/bidder when he marks the project "
+"as completed. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4649
+msgid ""
+"This email will be received by any user when another user sends a private "
+"message. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4693
+msgid "sender username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4694
+msgid "receiver username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4714
+msgid ""
+"This email will be received by the freshly rated user. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4751
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4816
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4880
+msgid "Winner Bidder's Username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4758
+msgid "rating value"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4759
+msgid "rating comment"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4778
+msgid ""
+"This email will be received by the project owner after he awards the project "
+"to a certain bidder. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4823
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4887
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4954
+msgid "winner bid value"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4824
+msgid "winner bidder username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4843
+msgid ""
+"This email will be received by the winner bidder when the project is won. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4907
+msgid ""
+"This email will be received by the loser bidders when the project is won. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4944
+msgid "Loser Bidder's Username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4951
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5150
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5281
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5345
+msgid "the bid value"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4953
+msgid "winner bid username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:4975
+msgid ""
+"This email will be received by the message owner when the project owner "
+"posts a new message on the private messaging board. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5012
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5209
+msgid "Receiver Username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5013
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5077
+msgid "Project Owner Username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5040
+msgid ""
+"This email will be received by the owner of a project when someone is "
+"posting a new message on the private messaging board. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5078
+msgid "Message Owner Username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5106
+msgid ""
+"This email will be received by the bidder when he posts a bid for a "
+"project. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5143
+msgid "Project Bidder's Username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5172
+msgid ""
+"This email will be received by all users subscribed for a certain category "
+"when a project gets posted. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5235
+msgid ""
+"This email will be received by the project owner when he pays the service "
+"provider. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5280
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5344
+msgid "the bidder username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5299
+msgid ""
+"This email will be received by the project owner whenever a user bids for "
+"his project. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5367
+msgid ""
+"This email will be received by your users after posting a new project on "
+"your website if the project is automatically approved. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5404
+msgid "username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5430
+msgid ""
+"This email will be received by your users after posting a new project on "
+"your website if the project is not automatically approved. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5467
+msgid "project owner username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5494
+msgid ""
+"This email will be received by the admin when someone posts a project on the "
+"website to be approved.\n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5558
+msgid ""
+"This email will be received by the admin when someone posts a project on the "
+"website website. This email will be received if the the project is "
+"automatically approved.\n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5656
+msgid ""
+"This email will be received by all new users who register on your website. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5687
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5741
+msgid "your new username"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5688
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5742
+msgid "your new user's email"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5689
+msgid "your new user's password"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5711
+msgid ""
+"This email will be received by the admin when a new user registers on the "
+"website. \n"
+"          Be aware, if you add html tags to this email you must have the "
+"allow HTML tags option set to yes.\n"
+"          Also at the bottom you can see a list of tags you can use in the "
+"email body."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5850
+msgid "Comma (,)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5850
+msgid "Point (.)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5851
+msgid "In front of sum (eg: $50)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5851
+msgid "After the sum (eg: 50$)"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5913
+msgid "Main Details"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5914
+msgid "Project Fees"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5915
+msgid "Project Budgets"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5924
+msgid "Site currency:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5931
+msgid "Currency symbol:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5937
+msgid "Currency symbol position:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5944
+msgid "Decimals sum separator:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:5950
+msgid "Thousands sum separator:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:6057
+msgid "Base Listing Fee:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:6064
+msgid "Featured Listing Fee:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:6071
+msgid "Sealed Bidding Fee:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:6078
+msgid "Hide Project from Search Engines Fee:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/admin_menu.php:6085
+msgid "Fee Taken out of Each Project: "
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:227
+msgid "<< Previous"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:254
+msgid "Next >>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:283
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/provider_search.php:200
+msgid "Filter Options"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:289
+msgid "Keyword"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:300
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:198
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:858
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:166
+msgid "Select Location"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:305
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:106
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:638
+msgid "Select Category"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:310
+msgid "Featured?"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:318
+msgid "Refine Search"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:361
+msgid "Order by"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:363
+msgid "Name"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/advanced_search.php:364
+msgid "Visits"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/all-posted-projects.php:54
+msgid "There are no projects posted."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/all_categories.php:24
+msgid "All Categories"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/all_locations.php:25
+msgid "All Locations"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/bidding-panel.php:6
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/message-board.php:17
+#, php-format
+msgid ""
+"You are not logged in. In order to bid please <a href=\"%s\">login</a> or <a "
+"href=\"%s\">register</a> an account"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/bidding-panel.php:53
+msgid "Please accept you can do the work."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/bidding-panel.php:61
+#, php-format
+msgid "Post bid on project: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/bidding-panel.php:88
+#, php-format
+msgid ""
+"You need to have at least %s in your account to bid. <a href=\"%s\">Click "
+"here</a> to deposit money."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/bidding-panel.php:101
+msgid "Your Bid"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/bidding-panel.php:127
+msgid "Attach Files"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/bidding-panel.php:261
+msgid "I can perform work where/when described in post."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/bidding-panel.php:269
+msgid "Place Bid"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/blog_page.php:30
+msgid "All Blog Posts"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/blog_page.php:50
+msgid "There are no posts."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/choose_user_tp.php:54
+msgid "Choose User Type"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/choose_user_tp.php:58
+msgid "Choose your user type"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/choose_winner.php:117
+#, php-format
+msgid "Choose Winner for your project: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/choose_winner.php:121
+#, php-format
+msgid "You are about to choose a winner for your project: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/choose_winner.php:129
+msgid "Yes, Choose winner Now!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/get_files_panel.php:16
+#, php-format
+msgid "Files Uploaded: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/get_files_panel.php:49
+msgid "There are no files attached."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/message-board.php:62
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/message-board.php:151
+#, php-format
+msgid "Posted by <b>%s</b> on <b>%s</b>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/message-board.php:100
+#, php-format
+msgid "Public Message Board: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/message-board.php:114
+msgid "Your Message"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/message-board.php:164
+msgid "No messages posted yet."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:54
+msgid "STEP 1"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:56
+msgid "STEP 2"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:57
+msgid "STEP 3"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:95
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:628
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:367
+msgid "Your project title"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:171
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:694
+msgid "Now"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:172
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:695
+msgid "Done"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:177
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:700
+msgid "Choose Time"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:178
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:701
+msgid "Time"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:179
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:702
+msgid "Hour"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:180
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:703
+msgid "Minute"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:181
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:704
+msgid "Second"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:182
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:705
+msgid "Time Zone"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:237
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:960
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:576
+msgid "Tags"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:247
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:679
+msgid "Next Step"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:308
+#, php-format
+msgid ""
+"There is a limit for the uploaded images. The maximum number of images you "
+"can upload for this project is %s."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:321
+#, php-format
+msgid "There are %s free images. After that each image will be charged %s."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:330
+msgid "Images"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:346
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:511
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:259
+msgid "Add Images"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:352
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:517
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:265
+msgid "Cancel upload"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:517
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:791
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:457
+msgid "You have a problem with your javascript"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:601
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:877
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:584
+msgid "Feature project?"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:608
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:634
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:658
+msgid "Extra fee is applied"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:612
+#, php-format
+msgid "By clicking this checkbox you mark your project as featured. %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:628
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:892
+msgid "Sealed Bidding?"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:638
+#, php-format
+msgid "By clicking this checkbox you hide your project's bids. %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:652
+msgid "Hide Project from search engines"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:661
+#, php-format
+msgid "By clicking this checkbox you hide your project from search engines. %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:678
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:1038
+msgid "Go Back"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:782
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:90
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/moneybookers_listing.php:43
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/paypal_listing.php:71
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:172
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:184
+msgid "Base Fee"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:792
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:99
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/moneybookers_listing.php:54
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/paypal_listing.php:82
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:181
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:191
+msgid "Extra Images Fee"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:806
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:114
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/moneybookers_listing.php:78
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/paypal_listing.php:106
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:204
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:197
+msgid "Featured Fee"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:822
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:132
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/moneybookers_listing.php:108
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/paypal_listing.php:137
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:234
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:204
+msgid "Sealed Bidding Fee"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:837
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:149
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/moneybookers_listing.php:139
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/paypal_listing.php:168
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:265
+msgid "Hide Project From Search Engines Fee"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:868
+msgid "Thank you for posting your project with us."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:886
+msgid "Your project isn`t live yet, the admin needs to approve it."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:918
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:167
+msgid ""
+"Thank you for posting your project with us. Below is the total price that "
+"you need to pay in order to put your project live.<br/>\n"
+"\t\t\tClick the pay button and you will be redirected..."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:959
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:329
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:229
+msgid "Total to Pay"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:965
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:448
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:237
+msgid "Your Total Credits"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:983
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:254
+msgid "See your project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:990
+msgid "Go to your account"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:1005
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:455
+msgid "Pay by Credits"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:1018
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:467
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:276
+msgid "Pay by PayPal"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:1021
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:470
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:279
+msgid "Pay by MoneyBookers/Skrill"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:1024
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:473
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:282
+msgid "Pay by Payza"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new.php:1042
+msgid "Finalize Project Posting"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new_post.php:43
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:125
+msgid "You cannot leave the project title blank!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new_post.php:44
+msgid "You cannot leave the project category blank!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new_post.php:45
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:126
+msgid "You cannot leave the project description blank!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/post_new_post.php:161
+#, php-format
+msgid "You cannot leave the field: \"<b>%s</b>\" blank!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/provider_search.php:24
+msgid "Service Provider Search"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/provider_search.php:101
+msgid "User Rating"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/provider_search.php:113
+msgid "Contact Provider"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/provider_search.php:205
+msgid "Username Like"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/provider_search.php:211
+msgid "Rating Over"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-feedback.php:11
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-feedback.php:22
+msgid "User Feedback"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-feedback.php:39
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:310
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:96
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:156
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:82
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:223
+msgid "From User"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-feedback.php:40
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:311
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:35
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:97
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:157
+msgid "Aquired on"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-feedback.php:72
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:339
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:186
+msgid "Comment"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-feedback.php:83
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:350
+msgid "There are no reviews to be awareded."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:11
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:22
+msgid "User Profile"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:31
+msgid "No personal info defined."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:73
+#, php-format
+msgid "Hourly Rate: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:97
+msgid "User Latest Posted Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:162
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:351
+msgid "Portfolio Pictures"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:239
+msgid "User Latest Won Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:291
+msgid "User Latest Feedback"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/user-profile.php:292
+msgid "See All Feedback"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:21
+msgid "Pay by Virtual Currency"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:182
+msgid "Pay Listing by Virtual Currency"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:206
+msgid "You do not have enough credits to pay for listing this project."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:215
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:351
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/pay_with_credits.php:65
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/pay_with_credits.php:89
+msgid "Add More Credits"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:233
+#, php-format
+msgid "Listing payment for project <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:293
+#, php-format
+msgid "Your payment has been sent. Return to <a href=\"%s\">your account</a>."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:339
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/pay_with_credits.php:86
+msgid "Your credits amount"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/credits_listing.php:340
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/pay_with_credits.php:87
+msgid "Pay Now"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/mb_deposit_pay.php:30
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/moneybookers_listing.php:179
+msgid "Please wait, your order is being processed..."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/mb_deposit_response.php:27
+msgid "Deposit through Moneybookers."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/moneybookers_listing.php:35
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/paypal_listing.php:63
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:164
+msgid "Cost for base fee"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/moneybookers_listing.php:70
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/paypal_listing.php:98
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:196
+msgid "Cost to make project featured"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/moneybookers_listing.php:100
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/paypal_listing.php:129
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:226
+msgid "Cost to add sealed bidding"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/moneybookers_listing.php:131
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/paypal_listing.php:160
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:257
+msgid "Cost to hide project from search engines"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/paypal_deposit_pay.php:46
+msgid "Payment Deposit"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/gateways/paypal_deposit_pay.php:117
+msgid "Deposit through PayPal."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:80
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:246
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:259
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:95
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:118
+msgid "Retrieve Password"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:104
+msgid "Please enter your information here. We will send you a new password."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:110
+msgid "Username or Email:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:127
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:444
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:154
+msgid "Are you lost?"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:131
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:388
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:60
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:155
+msgid "Login"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:171
+msgid "Retrieve Error"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:176
+#, php-format
+msgid ""
+"Sorry, that user does not seem to exist in our database. Perhaps you have "
+"the wrong username or e-mail address? <a href=\"%s\">Try again</a>."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:197
+msgid ""
+"Someone has asked to reset the password for the following site and username."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:199
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:275
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:54
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/sett.php:110
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:200
+msgid ""
+"To reset your password visit the following address, otherwise just ignore "
+"this email and nothing will happen."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:204
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/sett.php:122
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:210
+msgid "There Was a Problem"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:211
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:284
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/sett.php:128
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:212
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:285
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:217
+#, php-format
+msgid "The e-mail was sent successfully to %s's e-mail address."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:218
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:291
+msgid "Check your e-mail first, of course"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:219
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:292
+msgid "Click here to login!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:245
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:258
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:283
+msgid "<h1>Problem</h1>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:276
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:55
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:279
+#, php-format
+msgid "[%s] Your new password"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:289
+msgid "<h1>Success!</h1>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:290
+msgid "Your new password is in the mail."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:294
+#, php-format
+msgid "Password Lost and Changed for user: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:295
+#, php-format
+msgid "[%s] Password Lost/Change"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:372
+msgid "Your session has expired."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:375
+msgid "<strong>Error</strong>: The password field is empty."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:396
+msgid ""
+"We have sent a confirmation message to your email address.<br/>\n"
+"\t\t\t\t\tPlease follow the instructions in the email and get back to this "
+"page."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:417
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:107
+msgid "Username:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:422
+msgid "Password:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:428
+msgid "Keep me logged in"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:436
+msgid "Sign in"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:449
+msgid "Password Lost and Found"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/login.php:449
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:156
+msgid "Lost your password?"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:53
+msgid "Registration Complete"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:55
+msgid "emailed to you"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:56
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:57
+msgid ""
+"Please check your <strong>Junk Mail</strong> if your account information "
+"does not appear within 5 minutes."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:112
+msgid "E-mail:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:128
+msgid "User Type:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:143
+msgid "A password will be emailed to you."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:156
+msgid "Password Lost?"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:184
+msgid "Registration Disabled"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:188
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:189
+msgid "Go back to the blog"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:214
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:216
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:219
+msgid ""
+"<strong>ERROR</strong>: This username is already registered, please choose "
+"another one."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:224
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:226
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:229
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/register.php:251
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/sett.php:65
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/sett.php:69
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/sett.php:82
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/sett.php:96
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/sett.php:108
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/sett.php:111
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/sett.php:112
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/login_register/sett.php:128
+msgid ""
+"Possible reason: your host may have disabled the \n"
+"\t\tmail() function..."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/active_projects.php:28
+msgid "My Active Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/active_projects.php:50
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/awaiting_completion.php:55
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/awaiting_payments.php:76
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/bid_projects.php:62
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/closed_projects.php:50
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/my_account.php:81
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/my_account.php:110
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/my_account.php:142
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/my_account.php:194
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/my_account.php:224
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/my_account.php:252
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/outstanding_payments.php:72
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/unpublished_projects.php:65
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/won_projects.php:58
+msgid "There are no projects yet."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/awaiting_completion.php:16
+msgid "Awaiting Completion"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/awaiting_payments.php:30
+msgid "Awaiting Payments"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/bid_projects.php:26
+msgid "Projects I Bid"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/closed_projects.php:28
+msgid "My Closed Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/delete_project.php:18
+msgid "Delete Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/delete_project.php:48
+#, php-format
+msgid "Delete Project - %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/delete_project.php:57
+#, php-format
+msgid "The project has been deleted. <a href='%s'>Return to your account</a>."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/delete_project.php:65
+msgid "Are you sure you want to delete this project?"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/delete_project.php:66
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:446
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:455
+msgid "Confirm Deletion"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/delivered_projects.php:28
+msgid "Delivered Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:277
+msgid "Extra images cost"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:362
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:377
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:414
+#, php-format
+msgid ""
+"Your project has been updated but is not live. To make your project live you "
+"must <b><a href=\"%s\">publish</a></b> it first."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:369
+msgid ""
+"Your project has been updated and but is not live. The admin must approve it "
+"before it goes live."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:386
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:398
+#, php-format
+msgid ""
+"Your project has been updated and is live now. <a href=\"%s\"><strong>Click "
+"here</strong></a> to see your project."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:423
+msgid ""
+"You have added extra options to your project. In order to publish your "
+"project you need to pay for the options."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:442
+msgid "Total"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:834
+msgid "Price Range"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:880
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:593
+msgid ""
+"By clicking this checkbox you mark your project as featured. Extra fee is "
+"applied."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:895
+msgid ""
+"By clicking this checkbox you hide your project's bids. Extra fee is applied."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:907
+msgid "Hide from search engines"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:910
+msgid ""
+"By clicking this checkbox you hide your project from search engines. Extra "
+"fee is applied."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/edit_project.php:966
+msgid "Save Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:19
+msgid "Reviews I need to award"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:34
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:136
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:327
+msgid "To User"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:57
+msgid "Rate User"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:67
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:128
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:197
+msgid "There are no reviews to be awarded."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:81
+msgid "Reviews I am waiting "
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/feedbacks.php:141
+msgid "Reviews I was awarded "
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/mark_completed.php:66
+#, php-format
+msgid "Mark the project as completed: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/mark_completed.php:70
+#, php-format
+msgid "You are about to mark this project as completed: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/mark_completed.php:71
+msgid ""
+"The service provider will be notified about this action. After this you can "
+"pay the project from your Outstanding Payments section."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/mark_completed.php:79
+msgid "Yes, Mark Completed!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/mark_delivered.php:64
+#, php-format
+msgid "Mark the project delivered: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/mark_delivered.php:68
+#, php-format
+msgid "You are about to mark this project as delivered: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/mark_delivered.php:69
+msgid ""
+"The project owner will be notified to accept the delivery and get you paid."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/mark_delivered.php:77
+msgid "Yes, Mark Delivered!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/my_account.php:35
+msgid "Your Latest Posted Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/my_account.php:97
+msgid "My Unpublished &amp; Unpaid Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/my_account.php:129
+msgid "My Latest Closed Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/my_account.php:160
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/outstanding_project.php:29
+msgid "Outstanding Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/my_account.php:211
+msgid "My Latest Bids"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/my_account.php:239
+msgid "My Latest Won Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/outstanding_payments.php:26
+msgid "Projects I need to pay"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:52
+#, php-format
+msgid "Request canceled! <a href=\"%s\">Return to payments</a>."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:117
+#, php-format
+msgid "Payment sent to %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:133
+msgid "Escrow completed! Redirecting..."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:161
+msgid "Your Current Balance is"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:176
+msgid "What do you want to do"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:181
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:881
+msgid "Deposit Money"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:182
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:534
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:669
+msgid "Make Payment"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:185
+msgid "Deposit Escrow"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:188
+msgid "Withdraw Money"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:189
+msgid "Transactions"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:190
+msgid "Bank Transfer Details"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:203
+msgid "Pending Withdrawals"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:216
+msgid "No withdrawals pending yet."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:230
+msgid "Close Request"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:252
+msgid "Pending Incoming Payments"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:261
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:309
+msgid "No payments pending yet."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:300
+msgid "Pending Outgoing Payments"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:315
+msgid "User"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:317
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:84
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:138
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:225
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:329
+msgid "Date"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:334
+msgid "Release Payment"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:357
+msgid "Make Escrow Payment"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:374
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:725
+msgid "Provide a well formated amount."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:379
+msgid "Please choose an project."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:385
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:739
+msgid "Your balance is smaller than the amount requested."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:411
+msgid "Money Escrow Sent"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:412
+#, php-format
+msgid ""
+"You have placed in escrow the amount of: %s to user: \n"
+"\t\t\t\t\t\t\t<b>%s</b>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:431
+msgid "Money Escrow Received"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:432
+#, php-format
+msgid "You have received in escrow the amount of: %s from user: <b>%s</b>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:440
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:628
+msgid "Your payment has been sent. Redirecting..."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:451
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:693
+#, php-format
+msgid "Your Current Balance is: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:458
+msgid "Escrow amount"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:462
+msgid "Escrow for Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:463
+msgid "You dont have any awareded projects."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:469
+msgid "Make Escrow"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:485
+msgid "Set your Bank Transfer Details"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:499
+msgid "Saved"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:509
+msgid "Bank details"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:517
+msgid "Save Details"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:553
+msgid "ERROR: Provide a well formated amount."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:558
+msgid "ERROR: Invalid username provided."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:563
+msgid "ERROR: You cannot transfer money to your own account."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:572
+msgid "ERROR: Your balance is smaller than the amount requested."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:576
+#, php-format
+msgid "ERROR: The amount should not be less than %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:597
+msgid "Money Sent"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:598
+#, php-format
+msgid "You have sent amount of: %s to user: <b>%s</b>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:603
+#, php-format
+msgid "Amount transfered to user %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:617
+msgid "Money Received"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:618
+#, php-format
+msgid "You have received amount of: %s from user: <b>%s</b>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:623
+#, php-format
+msgid "Amount transfered from user %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:642
+#, php-format
+msgid "Your Current Balance is %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:649
+msgid "Payment amount"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:654
+msgid "Pay to user"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:662
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:723
+msgid "or"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:684
+msgid "Request Withdrawal"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:730
+msgid "Invalid email provided."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:743
+#, php-format
+msgid "The amount should not be less than 50.00 %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:764
+msgid "Money Withdraw Requested"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:765
+#, php-format
+msgid "You have requested a new withdrawal of: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:771
+msgid "Your request has been queued. Redirecting..."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:793
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:819
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:845
+msgid "Withdraw amount"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:798
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:203
+msgid "PayPal Email"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:805
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:831
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:857
+msgid "Withdraw"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:824
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:216
+msgid "Moneybookers Email"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:850
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:229
+msgid "Payza Email"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:891
+msgid "Deposit money by Bank Transfer"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:905
+msgid "Deposit money by PayPal"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:908
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:926
+msgid "Amount to deposit:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:909
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:927
+msgid "Deposit"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:923
+msgid "Deposit money by Moneybookers"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:945
+msgid "Payment Transactions"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/payments.php:954
+msgid "No activity yet."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/pay_for_project.php:29
+#, php-format
+msgid "Pay for project - %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/pay_for_project.php:54
+msgid ""
+"You are about to pay for this project. Use the accepted methods below to pay "
+"for it."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/pay_for_project.php:55
+#, php-format
+msgid "The price for the project is: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/pay_for_project.php:70
+msgid "Pay by credits"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/pay_with_credits.php:28
+msgid "Pay with virtual currency"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/pay_with_credits.php:59
+msgid "You do not have enough credits to pay for this project."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/pay_with_credits.php:73
+msgid "Your payment has been sent."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/pay_with_credits.php:83
+msgid "The price for the project is"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:104
+msgid "Passwords do not match!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:132
+msgid "Info saved!"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:147
+msgid "Personal Information"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:172
+msgid "City"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:235
+msgid "New Password"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:241
+msgid "Repeat Password"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:249
+msgid "Profile Avatar"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:251
+msgid "max file size: 1mb. Formats: jpeg, jpg, png, gif"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:270
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:517
+msgid "Save"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:285
+msgid "Other Information"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:334
+msgid "Hourly Rate"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:336
+msgid "your estimated hourly rate"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:462
+msgid "Emails Alerts"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/personal_information.php:502
+msgid ""
+"you will get an email notification when a project is posted in the selected "
+"categories"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:40
+msgid "Messaging Home"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:41
+msgid "Send New Message"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:42
+msgid "Inbox"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:50
+msgid "Sent Items"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:70
+msgid "Latest Received Messages"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:101
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:156
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:243
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:348
+msgid "Read"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:109
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:165
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:265
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:369
+msgid "No messages here."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:124
+msgid "Latest Sent Items"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:192
+msgid "Private Messages: Inbox"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:249
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:354
+msgid "Delete Selected"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:295
+msgid "Private Messages: Sent Items"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:413
+msgid "Delete Multiple Messages: "
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:417
+msgid "Delete Message: "
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:433
+msgid "No messsages selected."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:491
+msgid "Read Message: "
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:505
+msgid "Reply"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:662
+#, php-format
+msgid ""
+"You have just received a private message regarding your project: <a "
+"href='%s'>%s</a><br/>\n"
+"\t\t\t\t<a href='%s'>Click here to read the message</a>."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:684
+msgid "Your message has been sent."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:686
+msgid ""
+"Your message has been sent but the receiver will receive it only after "
+"moderation."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:696
+#, php-format
+msgid "Wrong File format: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:697
+msgid "ERROR! wrong username provided."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:712
+msgid "Send Private Message to: "
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:722
+msgid "Send To"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:746
+msgid "Message"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:752
+msgid "Attach File"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/private_messages.php:753
+msgid "Only PDF, ZIP, Office files and Images."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/rate_user.php:47
+#, php-format
+msgid "Review User %s for project %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/rate_user.php:64
+msgid "Please leave a comment with your review."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/rate_user.php:75
+#, php-format
+msgid ""
+"Your rating has been posted. <a href='%s'>Return to your account area</a>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/rate_user.php:121
+msgid "Your Rating"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/rate_user.php:126
+msgid "Your Comment"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/rate_user.php:134
+msgid "Submit Rating"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:18
+msgid "Relist Project Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:53
+msgid "Finalise Relist Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:125
+msgid ""
+"Thank you for posting your project with us. You can view your project by "
+"clicking the button."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:131
+#, php-format
+msgid ""
+"A new project was posted on your website. Don`t forget you need to approve "
+"it before it goes live.<br/>\n"
+"\t\t\t\tSee it here: <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:137
+msgid "Your project isn`t yet live, the admin needs to approve it."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:149
+#, php-format
+msgid ""
+"A new project was posted on your website.<br/>\n"
+"\t\t\t\tSee it here: <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:172
+#, php-format
+msgid ""
+"A new project was posted on your website. <br/>\n"
+"\t\t\tSee it here: <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/relist_this_done.php:214
+msgid "Hide Project from search engines Fee"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:246
+msgid "Images:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:550
+msgid "Private Bids"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:599
+msgid "Sealed bidding?"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:608
+msgid ""
+"By clicking this checkbox you mark your seal the bidding. Extra fee is "
+"applied."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:614
+msgid "Hide project from search engines?"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:623
+msgid ""
+"By clicking this checkbox you hide the project from search engines. Extra "
+"fee is applied."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:629
+msgid "Coupon"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:631
+msgid "The coupon code you used is wrong."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/repost_project.php:658
+msgid "Publish Project"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/unpublished_projects.php:27
+msgid "Unpublished Projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/my_account/won_projects.php:27
+msgid "Projects I Won"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/social/social.php:37
+msgid "Connect with:"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/best-rated-users.php:52
+msgid "No rated users yet."
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/best-rated-users.php:66
+#, php-format
+msgid "Joined on: %s"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/best-rated-users.php:87
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-category.php:144
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-location.php:176
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/featured-projects.php:72
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/latest-posted-projects.php:67
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/most-visited-projects.php:69
+msgid "Title"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/best-rated-users.php:99
+msgid "User Type"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/best-rated-users.php:114
+msgid "Users Limit"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-category.php:129
+msgid "See More Categories"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-category.php:150
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-location.php:182
+msgid "Only show parent categories"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-category.php:157
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-location.php:188
+msgid "Number of Columns"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-category.php:163
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-location.php:194
+msgid "Number of Rows"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-category.php:170
+msgid "Only show categories below"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-category.php:176
+msgid "Categories to show"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-location.php:161
+msgid "See More Locations"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-location.php:201
+msgid "Only show locations below"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/browse-by-location.php:207
+msgid "Locations to show"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/featured-projects.php:79
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/latest-posted-projects.php:74
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/most-visited-projects.php:76
+msgid "Show projects limit"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/latest-posted-projects.php:11
+msgid "Show latest posted projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/latest-posted-projects.php:13
+msgid "ProjectTheme - Latest projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/most-visited-projects.php:11
+msgid "Show most viewed projects"
+msgstr ""
+
+#: C:\Users\andrei\Desktop\sitemile_themes\ProjectTheme/lib/widgets/most-visited-projects.php:13
+msgid "ProjectTheme - Most viewed projects"
+msgstr ""
