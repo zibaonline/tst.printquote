@@ -1733,7 +1733,9 @@ if($new_Project_step == "3")
 	if($total == 0)
 	{
 			echo '<div >';
-			echo __('Thank you for requesting your free quote with us. To complete the process click Request Quotes below...','ProjectTheme');
+                        if( is_user_logged_in() ) {
+                            echo __('Thank you for requesting your free quote with us. To complete the process click Request Quotes below...','ProjectTheme');
+                        }
 			update_post_meta($pid, "paid", "1");
 
 				if(get_option('projectTheme_admin_approves_each_project') == 'yes')
@@ -1811,7 +1813,7 @@ if($new_Project_step == "3")
 
 	//----------------------------------------
 
-	
+if( is_user_logged_in() ) {	
 
 	echo '<table style="margin-top:25px">';
 
@@ -1873,7 +1875,6 @@ if($new_Project_step == "3")
 
 		
 
-		
 
 		echo '<tr>';
 
@@ -1884,7 +1885,6 @@ if($new_Project_step == "3")
 		echo '</tr>';
 
 		
-
 	
 
 		echo '<tr>';
@@ -1896,7 +1896,6 @@ if($new_Project_step == "3")
 		echo '</tr>';
 
 		
-
 		
 
 		echo '<tr>';
@@ -1921,11 +1920,18 @@ if($new_Project_step == "3")
 
 		
 
+                        echo '<tr>';
+
+                        echo '<td colspan="2">Thank you, your quote has been published successfully!<br/><br/></td>';
+
+                        echo '</tr>';
+                
+                
 			echo '<tr>';
 
 			echo '<td></td>';
 
-			echo '<td><a href="'.get_permalink($pid).'" class="go_back_btn">'.__('View Quote Request','ProjectTheme') .'</a></td>';
+			echo '<td><a href="'.get_permalink($pid).'" class="submit_bottom" style="color:#FFF;text-decoration:none;padding:8px">'.__('View Quote Request','ProjectTheme') .'</a></td>';
 
 			echo '</tr>';	
 
@@ -2021,10 +2027,12 @@ if($new_Project_step == "3")
 
 	} else  { echo '</table>'; }
 
-	
+}	
 
 	
         do_action('ProjectTheme_step3_before_finalize'); 
+        
+        if($_GET['finalize'] != 1 &&  is_user_logged_in() ) { echo 'Click the "Request Quotes" button below:'; }
 
 	echo '<div class="clear10"></div>';
 
@@ -2036,7 +2044,7 @@ if($new_Project_step == "3")
 if ( is_user_logged_in() ) { 
 	if($finalize == false)
 
-	echo '<a id="project_submit3_back_btn"  href="'. ProjectTheme_post_new_with_pid_stuff_thg($pid, '2') .'" class="go_back_btn" >'.__('Go Back','ProjectTheme').'</a>';
+	echo '<a id="project_submit3_back_btn"  href="'. ProjectTheme_post_new_with_pid_stuff_thg($pid, '2') .'" class="submit_bottom" style="color:#FFF;text-decoration:none;padding:8px;margin-right:10px" >'.__('Go Back','ProjectTheme').'</a>';
 
 	
 
@@ -2044,7 +2052,7 @@ if ( is_user_logged_in() ) {
 
 	echo '<a id="project_submit3_final_btn" href="'. ProjectTheme_post_new_with_pid_stuff_thg($pid, '3', 'finalize').'" 
 
-	class="go_back_btn" >'.__('Request Quotes','ProjectTheme').'</a>';
+	class="submit_bottom" style="color:#FFF;text-decoration:none;padding:8px" >'.__('Request Quotes','ProjectTheme').'</a>';
 }
 	
 
@@ -2101,32 +2109,31 @@ function extra_login_form(){
        <div id="rqform_wp_account_yesno_html">
            
             <style>label{width:75px; float:left;}</style>
-            <h2>Registration Complete! Please login here:</h2>
+            <h2>Almost there! Please login to publish your quote request:</h2>
             <form name="rqform_wp_account" id="rqform_wp_account" method="post" action="">
                 <p class="login-username">
                         <label for="user_login">Username</label>
-                        <input type="text" name="log" id="user_login" class="input" value="" size="20">
+                        <input type="text" name="log" id="user_login" class="do_input" value="" size="20">
                 </p>
                 <p class="login-password">
                         <label for="user_pass">Password</label>
-                        <input type="password" name="pwd" id="user_pass" class="input" value="" size="20">
+                        <input type="password" name="pwd" id="user_pass" class="do_input" value="" size="20">
                 </p>
 
-                <p class="login-remember"><input type="checkbox" value="forever" id="rememberme" name="rememberme"> Remember Me</p>
 
-                <p class="login-submit"><input type="submit" name="rq-submit" id="wp-submit" class="button-primary" value="Log In"></p>        
+                <p class="login-submit"><label>&nbsp;</label><input type="submit" name="rq-submit" id="wp-submit" class="submit_bottom" value="Login To Publish"></p>        
             </form>
-		    <p id="nav"><a title="Password Lost and Found" href="http://www.printquote.co.nz/wp-login.php?action=lostpassword" target="blank">Lost your password?</a></p>
+		    <p id="nav"><label>&nbsp;</label><a title="Password Lost and Found" href="http://www.printquote.co.nz/wp-login.php?action=lostpassword" target="blank">Lost your password?</a></p>
             
        </div>
         
        
        <?php } else if ( !is_user_logged_in() ) { ?>
         <div>
-            <h2>Do you already have an account?</h2>
+            <h2>Now, Login or Register to request quotes: <?php echo get_the_title($_GET['projectid']); ?></h2>
             <p>
-                Yes <input type="radio" name="rqform_wp_account_yesno" id="rqform_wp_account_yes" value="yes" /> &nbsp; &nbsp; 
-                No <input type="radio" name="rqform_wp_account_yesno" id="rqform_wp_account_no"  value="no" /> 
+                Login <input type="radio" name="rqform_wp_account_yesno" id="rqform_wp_account_yes" value="yes" /> &nbsp; &nbsp; 
+                Register <input type="radio" name="rqform_wp_account_yesno" id="rqform_wp_account_no"  value="no" /> 
                 
             </p>
         </div>
@@ -2238,18 +2245,17 @@ function rqform_wp_account_callback() {
     <form name="rqform_wp_account" id="rqform_wp_account" method="post" action="">
         <p class="login-username">
                 <label for="user_login">Username</label>
-                <input type="text" name="log" id="user_login" class="input" value="" size="20">
+                <input type="text" name="log" id="user_login" class="do_input" value="" size="20">
         </p>
         <p class="login-password">
                 <label for="user_pass">Password</label>
-                <input type="password" name="pwd" id="user_pass" class="input" value="" size="20">
+                <input type="password" name="pwd" id="user_pass" class="do_input" value="" size="20">
         </p>
         
-        <p class="login-remember"><input type="checkbox" value="forever" id="rememberme" name="rememberme"> Remember Me</p>
 
-        <p class="login-submit"><input type="submit" name="rq-submit" id="wp-submit" class="button-primary" value="Log In"></p>        
+        <p class="login-submit"><label>&nbsp;</label><input type="submit" name="rq-submit" id="wp-submit" class="submit_bottom" value="Login To Publish"></p>        
     </form>
-	<p id="nav"><a title="Password Lost and Found" href="http://www.printquote.co.nz/wp-login.php?action=lostpassword" target="blank">Lost your password?</a></p>
+	<p id="nav"><label>&nbsp;</label><a title="Password Lost and Found" href="http://www.printquote.co.nz/wp-login.php?action=lostpassword" target="blank">Lost your password?</a></p>
     
     <?php exit; }
     
@@ -2259,18 +2265,18 @@ function rqform_wp_account_callback() {
     <form name="rqform_wp_account" id="rqform_wp_account" method="post" action="">
         <p class="login-email">
                 <label for="user_login">Email</label>
-                <input type="text" name="eml" id="user_email" class="input" value="" size="20">
+                <input type="text" name="eml" id="user_email" class="do_input" value="" size="20">
         </p>
         <p class="login-username">
                 <label for="user_login">Username</label>
-                <input type="text" name="log" id="user_login" class="input" value="" size="20">
+                <input type="text" name="log" id="user_login" class="do_input" value="" size="20">
         </p>
         <p class="login-password">
                 <label for="user_pass">Password</label>
-                <input type="password" name="pwd" id="user_pass" class="input" value="" size="20">
+                <input type="password" name="pwd" id="user_pass" class="do_input" value="" size="20">
         </p>
 
-        <p class="submit"><input type="submit" value="Register" class="button-primary" id="wp-submit" name="rq-submit"></p>
+        <p class="submit"><label>&nbsp;</label><input type="submit" value="Register" class="submit_bottom" id="wp-submit" name="rq-submit"></p>
     </form>
         
     <?php exit; }

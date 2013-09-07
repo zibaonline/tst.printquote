@@ -1529,7 +1529,7 @@
 
 			
 
-			<li><a href="<?php echo bloginfo('url'); ?>/faqs/"><?php _e('FAQs','ProjectTheme'); ?></a></li>
+			<li><a href="<?php echo bloginfo('template_url'); ?>/faqs/"><?php _e('FAQs','ProjectTheme'); ?></a></li>
 
 			
 
@@ -1537,11 +1537,11 @@
 
 			
 
-			<li><a href="<?php echo bloginfo('url'); ?>/about/"><?php _e('About','ProjectTheme'); ?></a></li>
+			<li><a href="<?php echo bloginfo('template_url'); ?>/about/"><?php _e('About','ProjectTheme'); ?></a></li>
 
 			
 
-			<li><a href="<?php echo bloginfo('url'); ?>/contact/"><?php _e('Contact','ProjectTheme'); ?></a></li>
+			<li><a href="<?php echo bloginfo('template_url'); ?>/contact/"><?php _e('Contact','ProjectTheme'); ?></a></li>
 
 			
 

@@ -4070,7 +4070,7 @@ function projectTheme_get_post_active()
 				?>
                 
                  <a href="<?php the_permalink(); ?>"><img width="40" height="32" class="image_class" 
-                 src="..<?php bloginfo('template_url'); ?>/images/quote.png" /></a>
+                 src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" /></a>
                 <?php // echo ProjectTheme_get_first_post_image(get_the_ID(),40,32); ?>
                 <?php endif; ?>
                 
@@ -4277,7 +4277,7 @@ function projectTheme_get_post_main_function( $arr = '')
 				?>
                 
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img alt="<?php the_title(); ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="<?php echo $image_class; ?>" 
-                src="<?php bloginfo('template_url'); ?>/images/quote.png" /></a>
+                src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" /></a>
                <?php // echo ProjectTheme_get_first_post_image(get_the_ID(),$width,$height); ?>
                <?php endif; ?>
                
@@ -4644,7 +4644,7 @@ function projectTheme_get_post_awaiting_compl_function()
 				?>
                 
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img alt="<?php the_title(); ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="<?php echo $image_class; ?>" 
-                src="<?php bloginfo('template_url'); ?>/images/quote.png" /></a>
+                src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" /></a>
                
                <?php endif; ?>
                
@@ -4818,7 +4818,7 @@ function projectTheme_get_post_outstanding_project_function()
 				?>
                 
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="<?php echo $image_class; ?>" 
-                src="<?php bloginfo('template_url'); ?>/images/quote.png" alt="<?php the_title(); ?>" /></a>
+                src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" alt="<?php the_title(); ?>" /></a>
                
                <?php endif; ?>
                 </div>
@@ -4981,7 +4981,7 @@ function projectTheme_get_post_pay_function( $arr = '')
 				?>
                 
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img alt="<?php the_title(); ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="<?php echo $image_class; ?>" 
-                src="<?php bloginfo('template_url'); ?>/images/quote.png" /></a>
+                src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" /></a>
                
                <?php endif; ?>
                
@@ -5285,6 +5285,9 @@ function ProjectTheme_seconds_to_words_new($seconds)
 **************************************************************/
 function ProjectTheme_get_auto_draft($uid)
 	{
+		session_start();
+		$session_id = session_id();
+
 		global $wpdb;	
 		$querystr = "
 			SELECT distinct wposts.* 
@@ -5297,10 +5300,15 @@ function ProjectTheme_get_auto_draft($uid)
 		if(count($row) > 0)
 		{
 			$row = $row[0];
-			return $row->ID;
+			$this_pid_owner = get_option($row->ID);
+			if($this_pid_owner == $session_id){
+				return $row->ID;
+			}
 		}
 		
-		return ProjectTheme_create_auto_draft($uid);	
+		$got_pid = ProjectTheme_create_auto_draft($uid);	
+		update_option($got_pid, $session_id);
+		return $got_pid;	
 }
 
 /*************************************************************
@@ -5847,7 +5855,7 @@ function ProjectTheme_send_email_subscription($pid)
 			//---------------------------------------------
 			
 			$email = get_bloginfo('admin_email');
-			//ProjectTheme_send_email($user->user_email, $subject, $message);
+			ProjectTheme_send_email($user->user_email, $subject, $message);
 
 			
 			endif;
@@ -7167,7 +7175,7 @@ function ProjectTheme_send_email_when_bid_project_bidder($pid, $uid, $bid)
                    $message      = ProjectTheme_replace_stuff_for_me($find, $replace, $message);
                    $subject        = ProjectTheme_replace_stuff_for_me($find, $replace, $subject);
                   
-                   ProjectTheme_send_email($user->user_email, $subject, $message);
+                   //ProjectTheme_send_email($user->user_email, $subject, $message);
           }
  
  
@@ -7792,7 +7800,7 @@ function set_request_quote_author($user_id){
 
 
     // for auto login if login form submitted
-    if( !empty($_POST['log']) && !empty($_POST['pwd']) && $_POST['rq-submit'] == 'Log In'){ 
+    if( !empty($_POST['log']) && !empty($_POST['pwd']) && $_POST['rq-submit'] == 'Login To Publish'){ 
         login_after_auth_check($_POST['log'], $_POST['pwd']);         
     }
     // for auto login if register form submitted
