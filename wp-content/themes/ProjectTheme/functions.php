@@ -4070,7 +4070,7 @@ function projectTheme_get_post_active()
 				?>
                 
                  <a href="<?php the_permalink(); ?>"><img width="40" height="32" class="image_class" 
-                 src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" /></a>
+                 src="/images/quote.png" /></a>
                 <?php // echo ProjectTheme_get_first_post_image(get_the_ID(),40,32); ?>
                 <?php endif; ?>
                 
@@ -4277,7 +4277,7 @@ function projectTheme_get_post_main_function( $arr = '')
 				?>
                 
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img alt="<?php the_title(); ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="<?php echo $image_class; ?>" 
-                src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" /></a>
+                src="/images/quote.png" /></a>
                <?php // echo ProjectTheme_get_first_post_image(get_the_ID(),$width,$height); ?>
                <?php endif; ?>
                
@@ -4644,7 +4644,7 @@ function projectTheme_get_post_awaiting_compl_function()
 				?>
                 
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img alt="<?php the_title(); ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="<?php echo $image_class; ?>" 
-                src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" /></a>
+                src="/images/quote.png" /></a>
                
                <?php endif; ?>
                
@@ -4818,7 +4818,7 @@ function projectTheme_get_post_outstanding_project_function()
 				?>
                 
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="<?php echo $image_class; ?>" 
-                src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" alt="<?php the_title(); ?>" /></a>
+                src="/images/quote.png" alt="<?php the_title(); ?>" /></a>
                
                <?php endif; ?>
                 </div>
@@ -4981,7 +4981,7 @@ function projectTheme_get_post_pay_function( $arr = '')
 				?>
                 
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img alt="<?php the_title(); ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="<?php echo $image_class; ?>" 
-                src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" /></a>
+                src="/images/quote.png" /></a>
                
                <?php endif; ?>
                
@@ -7762,6 +7762,7 @@ function ProjectTheme_project_clear_table($colspan = '')
 	
 	
 function login_after_auth_check($username, $password){
+		$siteurl = site_url();
         $auth = wp_authenticate_username_password(NULL, $username, $password);
         if (is_wp_error($auth)) {
             echo 'not authenticated';
@@ -7770,7 +7771,7 @@ function login_after_auth_check($username, $password){
             // set author
             set_request_quote_author($user_id);
             //header("Location: http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
-            echo "<script type='text/javascript'>window.location.href='http://".$_SERVER[HTTP_HOST]."/post-new/?post_new_step=3&projectid=".$_GET['projectid']."';</script>";
+            echo "<script type='text/javascript'>window.location.href='".$siteurl."/post-new/?post_new_step=3&projectid=".$_GET['projectid']."';</script>";
             exit;            
         }    
 }
@@ -7829,7 +7830,7 @@ function set_request_quote_author($user_id){
                 add_filter('wp_mail_content_type',create_function('', 'return "text/html"; '));
                 wp_mail( $user_email, $mail_subject, $mail_message, $headers );
 
-                echo "<script type='text/javascript'>window.location.href='http://".$_SERVER[HTTP_HOST]."/post-new/?post_new_step=3&projectid=".$_GET['projectid']."&join=success';</script>";
+                echo "<script type='text/javascript'>window.location.href='".$siteurl."/post-new/?post_new_step=3&projectid=".$_GET['projectid']."&join=success';</script>";
         } else {
                 echo 'User already exists.';
         }
