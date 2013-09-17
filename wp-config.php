@@ -19,10 +19,10 @@
 define('DB_NAME', 'printquotedb');
 
 /** MySQL database username */
-define('DB_USER', 'camzibahawk2');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'p5In7[ou73');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
