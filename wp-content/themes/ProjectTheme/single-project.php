@@ -3208,26 +3208,45 @@ codeAddress("<?php
 								<p><?php echo ProjectTheme_get_budget_name_string_fromID(get_post_meta(get_the_ID(), 'budgets', true)); ?></p>
 
 							</li> --->
+							
+							<!-- [ADDED BY RISAN] Add lowest Quote -->
+							<li>
+								<h3><?php echo __("Lowest Quote",'ProjectTheme'); ?>:</h3>
+								<p>
+									<?php 
+										// If there is no bid, show '-'
+										if (projectTheme_number_of_bid(get_the_ID()) <= 0) echo '-';
+										// Else get the lowest bid!
+										else echo ProjectTheme_lowest_bid(get_the_ID());
+									?>
+								</p>
+							</li>
 
-                            
+							<!-- [ADDED BY RISAN] Add highest Quote -->
+							<li>
+								<h3><?php echo __("Highest Quote",'ProjectTheme'); ?>:</h3>
+								<p>
+									<?php 
+										// If there is no bid, show '-'
+										if (projectTheme_number_of_bid(get_the_ID()) <= 0) echo '-';
+										// Else get the lowest bid!
+										else echo projectTheme_highest_bid(get_the_ID());
+									?>
+								</p>
+							</li>
 
-                            
-
-                            <li>
-
+							<!-- [MODIFIED BY RISAN] -->
+							<li>
 								<h3><?php echo __("Average Quote",'ProjectTheme'); ?>:</h3>
-
-								<p><?php 
-								if (projectTheme_number_of_bid(get_the_ID()) < 2)
-								{
-								echo 'Hidden until two quotes are lodged';
-								}
-								else
-								{
-								echo ProjectTheme_average_bid(get_the_ID());
-								}
-								 ?></p>
-
+								<p>
+									<?php 
+										if (projectTheme_number_of_bid(get_the_ID()) < 2) {
+											echo 'Hidden until two quotes are lodged';
+										} else {
+											echo ProjectTheme_average_bid(get_the_ID());
+										}
+									?>
+								</p>
 							</li>
 
                             

@@ -5103,7 +5103,7 @@ function projectTheme_email_settings()
           
            <div id="bid_project_bidder">	
           
-           <div class="spntxt_bo"><?php _e('This email will be received by the bidder when he posts a bid for a project. 
+           <div class="spntxt_bo"><?php _e('When there is a new lower bid, this email will be received by the next highest bidder. 
           Be aware, if you add html tags to this email you must have the allow HTML tags option set to yes.
           Also at the bottom you can see a list of tags you can use in the email body.','ProjectTheme'); ?> </div>
           
@@ -5144,7 +5144,6 @@ function projectTheme_email_settings()
                     <strong>##site_login_url##</strong> - <?php _e('the link to your user login page','ProjectTheme'); ?><br/>
                     <strong>##your_site_name##</strong> - <?php _e("your website's name","ProjectTheme"); ?><br/>
                     <strong>##your_site_url##</strong> - <?php _e("your website's main address",'ProjectTheme'); ?><br/>
-                    <strong>##my_account_url##</strong> - <?php _e("your website's my account link",'ProjectTheme'); ?><br/>
                     <strong>##project_name##</strong> - <?php _e("new new project's title",'ProjectTheme'); ?><br/>
                     <strong>##project_link##</strong> - <?php _e('link for the new project','ProjectTheme'); ?><br/>
                     <strong>##bid_value##</strong> - <?php _e('the bid value','ProjectTheme'); ?><br/>

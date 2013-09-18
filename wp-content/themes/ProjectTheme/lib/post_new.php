@@ -1734,7 +1734,9 @@ if($new_Project_step == "3")
 	{
 			echo '<div >';
                         if( is_user_logged_in() ) {
-                            echo __('Thank you for requesting your free quote with us. To complete the process click Request Quotes below...','ProjectTheme');
+                            if(empty($_GET['finalize'])){
+                                echo __('Thank you for requesting your free quote with us. To complete the process click Request Quotes below...','ProjectTheme');                                
+                            }
                         }
 			update_post_meta($pid, "paid", "1");
 
@@ -1863,8 +1865,8 @@ if( is_user_logged_in() ) {
 
 		
 
-		
-
+		if(empty($_GET['finalize'])){
+                
 		echo '<tr>';
 
 		echo '<td>&nbsp;</td>';
@@ -1896,7 +1898,6 @@ if( is_user_logged_in() ) {
 		echo '</tr>';
 
 		
-		
 
 		echo '<tr>';
 
@@ -1906,6 +1907,7 @@ if( is_user_logged_in() ) {
 
 		echo '</tr>';
 
+                }
 	
 
 	}//endif show this table
@@ -2129,6 +2131,23 @@ function extra_login_form(){
         
        
        <?php } else if ( !is_user_logged_in() ) { ?>
+        
+       <?php 
+       // if user already exists
+       if( !empty($_POST['eml']) && !empty($_POST['log']) && !empty($_POST['pwd']) && $_POST['rq-submit']== 'Register' ){
+            if(!empty($_SESSION['user_exists'])){
+                echo '<div class="errrs"><div class="newad_error">'.$_SESSION['user_exists'].'</div></div>';
+            }
+       }
+       
+        // if authentication failed
+        if( !empty($_POST['log']) && !empty($_POST['pwd']) && $_POST['rq-submit'] == 'Login To Publish'){ 
+            if(!empty($_SESSION['wrong_login'])){
+                echo '<div class="errrs"><div class="newad_error">'.$_SESSION['wrong_login'].'</div></div>';
+            }
+        }       
+       ?> 
+        
         <div>
             <h2>Now, Login or Register to request quotes: <?php echo get_the_title($_GET['projectid']); ?></h2>
             <p>

@@ -3996,58 +3996,6 @@ function ProjectTheme_average_bid($pid)
 }
 
 /*************************************************************
- * [ADDED BY RISAN] 
- * ProjectTheme (c) sitemile.com - function
- * Function to get the lowest Bid price
- *
- *************************************************************/
-
-function projectTheme_lowest_bid($pid)
-{
-	// Get WP DB global var
-	global $wpdb;
-
-	// SQL Query string to retrieve the lowest bid
-	$query = "SELECT bid FROM " . $wpdb->prefix . "project_bids WHERE pid = '$pid' ORDER BY bid ASC LIMIT 1";
-	
-	// Execute query
-	$res = $wpdb->get_results($query);
-	
-	// If there is no bid, return 0 price
-	if(count($res) == 0) return ProjectTheme_get_show_price(0);
-	
-	// Else return the formated lowest bid
-	$bid = $res[0]->bid;
-	return ProjectTheme_get_show_price($bid);
-}
-
-/*************************************************************
- * [ADDED BY RISAN] 
- * ProjectTheme (c) sitemile.com - function
- * Function to get the highest Bid price
- *
- *************************************************************/
-
-function projectTheme_highest_bid($pid)
-{
-	// Get WP DB global var
-	global $wpdb;
-
-	// SQL Query string to retrieve the highest bid
-	$query = "SELECT bid FROM " . $wpdb->prefix . "project_bids WHERE pid = '$pid' ORDER BY bid DESC LIMIT 1";
-	
-	// Execute query
-	$res = $wpdb->get_results($query);
-	
-	// If there is no bid, return 0 price
-	if(count($res) == 0) return ProjectTheme_get_show_price(0);
-	
-	// Else return the formated highest bid
-	$bid = $res[0]->bid;
-	return ProjectTheme_get_show_price($bid);
-}
-
-/*************************************************************
 *
 *	ProjectTheme (c) sitemile.com - function
 *
@@ -7187,96 +7135,50 @@ function ProjectTheme_send_email_on_win_to_bidder($pid, $winner_uid)
 	endif;
 }
 
-/**************************************************************
- *	[MODIFIED BY RISAN]
- *	ProjectTheme (c) sitemile.com - function
- *	This function will send an email to next highest bidder
- *	when there is new lowest bidder
- *
- **************************************************************/
+/*************************************************************
+*
+*	ProjectTheme (c) sitemile.com - function
+*
+**************************************************************/
 function ProjectTheme_send_email_when_bid_project_bidder($pid, $uid, $bid)
 {
-	// Get WP DB global variable
-	global $wpdb;
-	
-	// Get user option, set via WP ADMIN >> PROJECT THEME >> EMAIL SETTINGS >> BID PROJECT(bidder)
-	$enable = get_option('ProjectTheme_bid_project_bidder_email_enable');
-	$subject_template = get_option('ProjectTheme_bid_project_bidder_email_subject');
-	$message_template = get_option('ProjectTheme_bid_project_bidder_email_message');
+          $enable         = get_option('ProjectTheme_bid_project_bidder_email_enable');
+          $subject        = get_option('ProjectTheme_bid_project_bidder_email_subject');
+          $message      = get_option('ProjectTheme_bid_project_bidder_email_message');      
+         
+         
+ 
+          global $wpdb;
+          $bids = "select uid, MIN(bid) from ".$wpdb->prefix."project_bids where uid!='$uid' and pid='$pid' and bid > '$bid_val' group by uid";
+          $r = $wpdb->get_results($bids);
+         
+ 
+          foreach($r as $row)
+          {                                    
+                   $looser = $row->uid;
+                   $loser_bid = $row->bid;                        
+ 
+                   $post                      = get_post($pid);
+                   $user                     = get_userdata($looser);
+                   $site_login_url          = ProjectTheme_login_url();
+                   $site_name              = get_bloginfo('name');
+                   $account_url            = get_permalink(get_option('ProjectTheme_my_account_page_id'));
 
-	///////////////////////////////////////////////////////////////////////////////////////////////
- 	// Select an equal or lower bid from database
-    $query = "SELECT uid, bid FROM " . $wpdb->prefix . "project_bids WHERE uid != '$uid' AND pid = '$pid' AND bid <= '$bid'";
-    $res = $wpdb->get_results($query);
-	
-	///////////////////////////////////////////////////////////////////////////////////////////////
-    // If there is a lower or equal bid, forget it!
-    if (count($res) > 0) return true;
+		$find = array('##username##','##bid_value##','##site_login_url##','##your_site_name##','##your_site_url##','##my_account_url##','##project_name##','##project_link##', '##bidder_username##');
+   		$replace 	= array($user->user_login, $bid_val, $site_login_url, $site_name, get_bloginfo('siteurl'), $account_url, $post->post_title, get_permalink($pid), $bidder_username);
 
-    ///////////////////////////////////////////////////////////////////////////////////////////////
-    // If there is no equal bid and this is the lowest bid, get the next highest bid value
-
-    $query = "SELECT uid, bid FROM " . $wpdb->prefix . "project_bids WHERE pid = '$pid' AND bid > '$bid' ORDER BY bid ASC";
-    $res = $wpdb->get_results($query);
-    $next_highest_bid = $res[0]->bid;
-
-    // Get all printer whose bid is equal to the next_highest_bid
-    $query = "SELECT uid, bid FROM " . $wpdb->prefix . "project_bids WHERE pid = '$pid' AND bid = '$next_highest_bid'";
-    $res = $wpdb->get_results($query);
-	
-	// Loop through each next highest bidder
-    foreach ($res as $row) {
-
-    	// Get WP user detail
-    	///////////////////////////////////////////////////////////////////////////////////////////
-		$user = get_userdata($row->uid);
-		// Get WP post detail
-		$post = get_post($pid);
-
-		$username = $user->user_login;					// Bidder username
-		$bid_value = $row->bid;							// Bid value
-		$site_login_url = ProjectTheme_login_url();		// Login URL to PrinQuote
-		$your_site_name = get_bloginfo('name');			// PrintQuote site title
-		$your_site_url = get_bloginfo('siteurl');		// PrintQuote URL
-		$project_name = $post->post_title;				// Current Project Title
-		$project_link = get_permalink($pid);			// Current Project Permalink
-		
-		// Template tag to replace
-		///////////////////////////////////////////////////////////////////////////////////////////
-		$find = array(
-			'##username##',
-			'##bid_value##',
-			'##site_login_url##',
-			'##your_site_name##',
-			'##your_site_url##',
-			'##project_name##',
-			'##project_link##', 
-		);
-		
-		// Replacement value
-		$replace = array(
-			$username,
-			$bid_value,
-			$site_login_url,
-			$your_site_name,
-			$your_site_url,
-			$project_name,
-			$project_link
-		);
-		
-		///////////////////////////////////////////////////////////////////////////////////////////
-
-		$tag = 'ProjectTheme_send_email_when_bid_project_bidder';
-		$find = apply_filters( $tag . '_find', $find );
-		$replace = apply_filters( $tag . '_replace', $replace );
-
-		// Replace template tag
-		$message = ProjectTheme_replace_stuff_for_me($find, $replace, $message_template);
-		$subject = ProjectTheme_replace_stuff_for_me($find, $replace, $subject_template);
-		
-		// Finaly send notification to the next highest bidder!
-		ProjectTheme_send_email($user->user_email, $subject, $message);
-    }
+                   $tag             = 'ProjectTheme_send_email_when_bid_project_bidder';
+                   $find             = apply_filters( $tag . '_find',        $find );
+                   $replace        = apply_filters( $tag . '_replace', $replace );
+                  
+                  
+                   $message      = ProjectTheme_replace_stuff_for_me($find, $replace, $message);
+                   $subject        = ProjectTheme_replace_stuff_for_me($find, $replace, $subject);
+                  
+                   //ProjectTheme_send_email($user->user_email, $subject, $message);
+          }
+ 
+ 
 }
 
 
@@ -7860,10 +7762,11 @@ function ProjectTheme_project_clear_table($colspan = '')
 	
 	
 function login_after_auth_check($username, $password){
+		$_SESSION['wrong_login'] = '';
 		$siteurl = site_url();
         $auth = wp_authenticate_username_password(NULL, $username, $password);
         if (is_wp_error($auth)) {
-            echo 'not authenticated';
+            $_SESSION['wrong_login'] = 'Sorry, either your username or password is incorrect. Please try logging in again.';
         } else {
             auto_login($username);
             // set author
@@ -7904,6 +7807,7 @@ function set_request_quote_author($user_id){
     }
     // for auto login if register form submitted
     if( !empty($_POST['eml']) && !empty($_POST['log']) && !empty($_POST['pwd']) && $_POST['rq-submit']== 'Register' ){
+    	$_SESSION['user_exists'] = '';
         // create new user
         $user_email    = $_POST['eml'];
         $user_name     = $_POST['log'];
@@ -7927,10 +7831,10 @@ function set_request_quote_author($user_id){
 				$mail_message .= 'The PrintQuote Team';
                 add_filter('wp_mail_content_type',create_function('', 'return "text/html"; '));
                 wp_mail( $user_email, $mail_subject, $mail_message, $headers );
-
+				$siteurl = site_url();
                 echo "<script type='text/javascript'>window.location.href='".$siteurl."/post-new/?post_new_step=3&projectid=".$_GET['projectid']."&join=success';</script>";
         } else {
-                echo 'User already exists.';
+                $_SESSION['user_exists'] = 'Sorry, that username already exists, please choose another.';
         }
         // login new user
         /*if(!empty($user_id)){
