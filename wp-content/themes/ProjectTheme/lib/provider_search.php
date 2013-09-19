@@ -110,11 +110,19 @@ function ProjectTheme_display_provider_search_page_disp()
 				
 				foreach ($authors as $author)
 				{
+					// [ADDED BY RISAN] Create a pretty link for printer profile page
+					$printer_name = strtolower($author->display_name);
+					$printer_name_pretty = str_replace(' ', '-', $printer_name);
+					$printer_link = home_url() . '/printer/' . $printer_name_pretty;
+
 					// get all the user's data
 					$author_info = get_userdata($author->ID);
 					echo '<tr>';
 					echo '<td><img class="imgImg" width="50" height="50" src="' . ProjectTheme_get_avatar($author->ID,100,100) . '" /></td>';
-					echo '<td><a href="'.ProjectTheme_get_user_profile_link($author->ID).'">'.$author_info->user_login.'<a/></td>';
+					
+					//echo '<td><a href="'.ProjectTheme_get_user_profile_link($author->ID).'">'.$author_info->user_login.'<a/></td>';
+					echo '<td><a href="' . $printer_link . '">' . $author_info->user_login . '<a/></td>';
+					
 					echo '<td>'.ProjectTheme_project_get_star_rating($author->ID).'</td>';
 					// echo '<td><a href="'.ProjectTheme_get_priv_mess_page_url('send', '', '&uid='.$author_info->ID).'">'.__('Contact Printer','ProjectTheme').'</a></td>';
 					

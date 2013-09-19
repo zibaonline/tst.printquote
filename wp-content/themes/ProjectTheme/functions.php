@@ -7937,3 +7937,9 @@ function set_request_quote_author($user_id){
             login_after_auth_check($user_name, $user_password);                     
         }*/
     }
+	
+	// [ADDED BY RISAN] Load a functions to send an email to client on expiry date
+    require_once('email-expiry.php');
+	
+	// [ADDED BY RISAN] Add a new rewrite rule to redirect to printer profile page
+    add_rewrite_rule('^printer/([^/]*)/?','index.php?p_action=user_profile&post_author=$matches[1]','top');

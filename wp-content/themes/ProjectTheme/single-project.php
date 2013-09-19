@@ -527,11 +527,26 @@
 	$current_user = wp_get_current_user();
 	$client = 0;
 
+	// Get winner data
+	$winner_data = projectTheme_get_winner_bid($post->ID);
+	$has_winner = !is_null($winner_data);
+
+	if ($current_user->ID == $post->post_author) $is_my_project = true;
+	else $is_my_project = false;
+
+	$is_administrator = (bool) current_user_can('administrator');
+	$is_winner = false;
+
+	if ($has_winner) {
+		if ($winner_data->uid == $current_user->ID) $is_winner = true;
+	}
+
 	if ($current_user->ID == $post->post_author)	{ $client = 1; }
 
 	if($hide_project_p == "1"):
 	{
-		if (!is_user_logged_in() || ($client == "0" && ProjectTheme_is_user_business($uid)))
+		// [MODIFIED BY RISAN] LET ADMINISTRATOR TO SEE ALL PROJECT DETAILS 
+		if (!is_user_logged_in() || ( !$is_my_project && ProjectTheme_is_user_business($uid) && !$is_administrator) )
 			{
 
 	?>
@@ -2276,13 +2291,17 @@ codeAddress("<?php
 
         <ul class="other-dets other-dets2">
 
-				<li>
-
-					<h3><?php _e("Posted by",'ProjectTheme');?>:</h3>
-
-					<p><a href="<?php bloginfo('siteurl'); ?>/?p_action=user_profile&post_author=<?php echo $post->post_author; ?>"><?php the_author() ?></a></p> 
-
-				</li>
+        		<!-- [MODIFIED BY RISAN] HIDE 'POSTED BY' FIELD -->
+        		<?php if ($is_administrator || $is_winner || $is_my_project) { ?>
+					<li>
+						<h3><?php _e("Posted by",'ProjectTheme');?>:</h3>
+						<p>
+							<a href="<?php bloginfo('siteurl'); ?>/?p_action=user_profile&post_author=<?php echo $post->post_author; ?>">
+								<?php the_author() ?>
+							</a>
+						</p> 
+					</li>
+				<?php } ?>
 
                 <?php
 
@@ -2301,20 +2320,18 @@ codeAddress("<?php
                 
 
                 <li>
-
 					<h3><?php _e("Feedback",'ProjectTheme');?>:</h3>
-
 					<p id='my_stars_rating_done'><?php echo ProjectTheme_project_get_star_rating($post->post_author); ?></p> 
-
 				</li>
 
-                 <li>
-
-                 <a href="<?php echo ProjectTheme_get_user_feedback_link($post->post_author); ?>"><?php _e('View User Feedback','ProjectTheme'); ?></a>
-
-			 	
-
-                </li>
+				<!-- [MODIFIED BY RISAN] HIDE 'VIEW USER FEEDBACK' FIELD -->
+        		<?php if ($is_administrator || $is_winner || $is_my_project) { ?>
+	                <li>
+	                 	<a href="<?php echo ProjectTheme_get_user_feedback_link($post->post_author); ?>">
+	                 		<?php _e('View User Feedback','ProjectTheme'); ?>
+	                 	</a>
+	                </li>
+	            <?php } ?>
 
                 <li>
 
@@ -2354,7 +2371,13 @@ codeAddress("<?php
 
             	<br/><br/>
 
-               <a href="<?php bloginfo('siteurl'); ?>/?p_action=user_profile&post_author=<?php echo $post->post_author; ?>"><?php _e('More print jobs by this client...','ProjectTheme'); ?></a><br/>
+            	<!-- [MODIFIED BY RISAN] HIDE 'MORE PRINT JOBS' FIELD -->
+        		<?php if ($is_administrator || $is_winner || $is_my_project) { ?>
+               		<a href="<?php bloginfo('siteurl'); ?>/?p_action=user_profile&post_author=<?php echo $post->post_author; ?>">
+               			<?php _e('More print jobs by this client...','ProjectTheme'); ?>
+               		</a>
+               		<br/>
+               	<?php } ?>
 
                
 
@@ -4257,13 +4280,17 @@ codeAddress("<?php
 
         <ul class="other-dets other-dets2">
 
+        	<!-- [MODIFIED BY RISAN] HIDE 'POSTED BY' FIELD -->
+        	<?php if ($is_administrator || $is_winner || $is_my_project) { ?>
 				<li>
-
 					<h3><?php _e("Posted by",'ProjectTheme');?>:</h3>
-
-					<p><a href="<?php bloginfo('siteurl'); ?>/?p_action=user_profile&post_author=<?php echo $post->post_author; ?>"><?php the_author() ?></a></p> 
-
+					<p>
+						<a href="<?php bloginfo('siteurl'); ?>/?p_action=user_profile&post_author=<?php echo $post->post_author; ?>">
+							<?php the_author() ?>
+						</a>
+					</p> 
 				</li>
+			<?php } ?>
 
                 <?php
 
@@ -4289,13 +4316,14 @@ codeAddress("<?php
 
 				</li>
 
-                 <li>
-
-                 <a href="<?php echo ProjectTheme_get_user_feedback_link($post->post_author); ?>"><?php _e('View User Feedback','ProjectTheme'); ?></a>
-
-			 	
-
+			<!-- [MODIFIED BY RISAN] HIDE 'VIWE USER FEEDBACK' FIELD -->
+        	<?php if ($is_administrator || $is_winner || $is_my_project) { ?>
+                <li>
+                 	<a href="<?php echo ProjectTheme_get_user_feedback_link($post->post_author); ?>">
+                 		<?php _e('View User Feedback','ProjectTheme'); ?>
+                 	</a>
                 </li>
+            <?php } ?>
 
                 <li>
 
@@ -4335,7 +4363,13 @@ codeAddress("<?php
 
             	<br/><br/>
 
-               <a href="<?php bloginfo('siteurl'); ?>/?p_action=user_profile&post_author=<?php echo $post->post_author; ?>"><?php _e('More print jobs by this client...','ProjectTheme'); ?></a><br/>
+            <!-- [MODIFIED BY RISAN] HIDE 'MORE PRINT JOBS' FIELD -->
+        	<?php if ($is_administrator || $is_winner || $is_my_project) { ?>
+            	<a href="<?php bloginfo('siteurl'); ?>/?p_action=user_profile&post_author=<?php echo $post->post_author; ?>">
+            		<?php _e('More print jobs by this client...','ProjectTheme'); ?>
+            	</a>
+            	<br/>
+            <?php } ?>
 
                
 
