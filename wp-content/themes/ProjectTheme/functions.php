@@ -7860,10 +7860,11 @@ function ProjectTheme_project_clear_table($colspan = '')
 	
 	
 function login_after_auth_check($username, $password){
+		$_SESSION['wrong_login'] = '';
 		$siteurl = site_url();
         $auth = wp_authenticate_username_password(NULL, $username, $password);
         if (is_wp_error($auth)) {
-            echo 'not authenticated';
+            $_SESSION['wrong_login'] = 'Sorry, either your username or password is incorrect. Please try logging in again.';
         } else {
             auto_login($username);
             // set author
@@ -7904,6 +7905,7 @@ function set_request_quote_author($user_id){
     }
     // for auto login if register form submitted
     if( !empty($_POST['eml']) && !empty($_POST['log']) && !empty($_POST['pwd']) && $_POST['rq-submit']== 'Register' ){
+        $_SESSION['user_exists'] = '';	
         // create new user
         $user_email    = $_POST['eml'];
         $user_name     = $_POST['log'];
@@ -7927,10 +7929,10 @@ function set_request_quote_author($user_id){
 				$mail_message .= 'The PrintQuote Team';
                 add_filter('wp_mail_content_type',create_function('', 'return "text/html"; '));
                 wp_mail( $user_email, $mail_subject, $mail_message, $headers );
-
+				$siteurl = site_url();
                 echo "<script type='text/javascript'>window.location.href='".$siteurl."/post-new/?post_new_step=3&projectid=".$_GET['projectid']."&join=success';</script>";
         } else {
-                echo 'User already exists.';
+                $_SESSION['user_exists'] = 'Sorry, that username already exists, please choose another.';
         }
         // login new user
         /*if(!empty($user_id)){
