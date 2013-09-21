@@ -1,0 +1,5 @@
+17-09-2013 08:04:35 - ERROR - 31012784 - mail> Could not instantiate mail function.
+17-09-2013 08:04:36 - ERROR - 31012904 - mail> Could not instantiate mail function.
+17-09-2013 08:07:49 - ERROR - 31019248 - mail> Could not instantiate mail function.
+17-09-2013 08:07:50 - ERROR - 31019368 - mail> Could not instantiate mail function.
+17-09-2013 08:07:51 - ERROR - 31019384 - mail> Could not instantiate mail function.
