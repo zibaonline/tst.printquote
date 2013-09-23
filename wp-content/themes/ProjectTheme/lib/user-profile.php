@@ -1,7 +1,15 @@
 <?php
 
 	global $wpdb,$wp_rewrite,$wp_query;
-	$username = $wp_query->query_vars['post_author'];
+
+	// [MODIFIED BY RISAN] Get userid by display name
+	$pretty_name = $wp_query->query_vars['post_author'];
+	$display_name = str_replace('-', ' ', $pretty_name);
+
+	$query = "SELECT * FROM " . $wpdb->prefix . "users WHERE display_name = '$display_name'";
+	$res = $wpdb->get_results($query);
+	$username = $res[0]->ID;
+
 	$uid = $username;
 	$paged = $wp_query->query_vars['paged'];
 
