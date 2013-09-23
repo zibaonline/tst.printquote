@@ -54,9 +54,19 @@ function send_expiry_email() {
 	if ($enable == 'no') return true;
 
 	//=============================================================================================
-	$now = time() + (60 * 60 * 4);
+	// Extract schedule time
+	$time_arr = explode(':', SCHEDULE_TIME);
+	$schedule_hour = $time_arr[0];
+	$schedule_minute = $time_arr[1];
+	$schedule_second = $time_arr[2];
 
-	$query = "SELECT `post_id`, `meta_value` FROM " . $wpdb->prefix . "postmeta WHERE meta_key = 'ending' AND meta_value <= " . $now;
+	//=============================================================================================
+	$now = time();
+	$end_time = mktime($schedule_hour, $schedule_minute, $schedule_second, date('n', $now), date('j', $now), date('Y', $now));
+	$start_time = $end_time - (60 * 60 * 24);
+
+
+	$query = "SELECT `post_id`, `meta_value` FROM " . $wpdb->prefix . "postmeta WHERE meta_key = 'ending' AND meta_value >= " . $start_time . " AND meta_value < " . $end_time;
 	$res = $wpdb->get_results($query);
 
 	foreach ($res as $row) {
