@@ -29,13 +29,21 @@
 
 
 	<title>
+		<?php 
+		$pretty_name = $wp_query->query_vars['post_author'];
 
-
-
-	<?php wp_title(  ); ?>
-
-
-
+		if (strlen($pretty_name) > 0) { 
+			$display_name = str_replace('-', ' ', $pretty_name);
+			$query = "SELECT * FROM " . $wpdb->prefix . "users WHERE display_name = '$display_name'";
+			$res = $wpdb->get_results($query);
+			$display_name = $res[0]->display_name;
+			echo 'Let ' . $display_name . ' compete for your printing jobs &raquo; ' . get_bloginfo('name');	
+		} elseif (is_home()) {
+			echo get_bloginfo('name') . ' &raquo; ' . get_bloginfo('description');
+		} else {			
+			echo wp_title('', false) . ' &raquo; ' . get_bloginfo('name');
+		}
+		?>
     </title>
 
 
