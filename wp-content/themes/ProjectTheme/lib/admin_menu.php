@@ -4333,6 +4333,14 @@ function projectTheme_email_settings()
 		
 		echo '<div class="saved_thing">'.__('Settings saved!','ProjectTheme').'</div>';		
 	}
+
+	// [ADDED BY RISAN] Save option for expired project email
+	if ( isset($_POST['ProjectTheme_project_expired_email_save']) ) {
+		update_option('ProjectTheme_project_expired_enable', trim($_POST['ProjectTheme_project_expired_enable']));
+		update_option('ProjectTheme_project_expired_subject', trim($_POST['ProjectTheme_project_expired_subject']));
+		update_option('ProjectTheme_project_expired_message', trim($_POST['ProjectTheme_project_expired_message']));
+		echo '<div class="saved_thing">'.__('Settings saved!','ProjectTheme').'</div>';		
+	}
 	
 	
 	
@@ -4379,8 +4387,10 @@ function projectTheme_email_settings()
             
             
             <li><a href="#bid_project_subs"><?php _e('Project Subscription Notification','ProjectTheme'); ?></a></li>            
-            <li><a href="#payment_on_completed_project"><?php _e('Payment on Completed Project (owner)','ProjectTheme'); ?></a></li>    
-            
+            <li><a href="#payment_on_completed_project"><?php _e('Payment on Completed Project (owner)','ProjectTheme'); ?></a></li>   
+
+            <!-- [ADDED BY RISAN] Add a new tab --> 
+            <li><a href="#project_expired"><?php _e('Project Expired (owner)','ProjectTheme'); ?></a></li>
                   
     		
             <?php do_action('ProjectTheme_save_emails_tabs'); ?>
@@ -5103,7 +5113,7 @@ function projectTheme_email_settings()
           
            <div id="bid_project_bidder">	
           
-           <div class="spntxt_bo"><?php _e('This email will be received by the bidder when he posts a bid for a project. 
+           <div class="spntxt_bo"><?php _e('When there is a new lower bid, this email will be received by the next highest bidder. 
           Be aware, if you add html tags to this email you must have the allow HTML tags option set to yes.
           Also at the bottom you can see a list of tags you can use in the email body.','ProjectTheme'); ?> </div>
           
@@ -5144,7 +5154,6 @@ function projectTheme_email_settings()
                     <strong>##site_login_url##</strong> - <?php _e('the link to your user login page','ProjectTheme'); ?><br/>
                     <strong>##your_site_name##</strong> - <?php _e("your website's name","ProjectTheme"); ?><br/>
                     <strong>##your_site_url##</strong> - <?php _e("your website's main address",'ProjectTheme'); ?><br/>
-                    <strong>##my_account_url##</strong> - <?php _e("your website's my account link",'ProjectTheme'); ?><br/>
                     <strong>##project_name##</strong> - <?php _e("new new project's title",'ProjectTheme'); ?><br/>
                     <strong>##project_link##</strong> - <?php _e('link for the new project','ProjectTheme'); ?><br/>
                     <strong>##bid_value##</strong> - <?php _e('the bid value','ProjectTheme'); ?><br/>
@@ -5755,7 +5764,64 @@ function projectTheme_email_settings()
             
             </table>
             </form>
-        </div> 
+        </div>
+
+        <!-- ################################################################################## -->
+		<!-- [ADDED BY RISAN] add a new tab content -->
+		<div id="project_expired">	
+			<div class="spntxt_bo">
+				<?php _e(
+					'This email will be received by the project owner when his project due time is expired. 
+					 Be aware, if you add html tags to this email you must have the allow HTML tags option set to yes.
+					 Also at the bottom you can see a list of tags you can use in the email body.','ProjectTheme'
+					);
+				?> 
+			</div>
+			<form method="post" action="<?php echo get_admin_url(); ?>admin.php?page=email-settings&active_tab=project_expired">
+			<table width="100%" class="sitemile-table">
+				<!-- Enable this email? -->
+				<tr>
+					<td valign=top width="22"><?php ProjectTheme_theme_bullet(); ?></td>
+					<td><?php _e('Enable this email:','ProjectTheme'); ?></td>
+					<td><?php echo ProjectTheme_get_option_drop_down($arr, 'ProjectTheme_project_expired_enable'); ?></td>
+				</tr>
+				<!-- Email subject -->
+				<tr>
+					<td valign=top width="22"><?php ProjectTheme_theme_bullet(); ?></td>
+					<td width="160"><?php _e('Email Subject:','ProjectTheme'); ?></td>
+					<td><input type="text" size="90" name="ProjectTheme_project_expired_subject" value="<?php echo stripslashes(get_option('ProjectTheme_project_expired_subject')); ?>"/></td>
+				</tr>
+				<!-- Email content -->
+				<tr>
+					<td valign=top><?php ProjectTheme_theme_bullet(); ?></td>
+					<td valign=top><?php _e('Email Content:','ProjectTheme'); ?></td>
+					<td><textarea cols="92" rows="10" name="ProjectTheme_project_expired_message"><?php echo stripslashes(get_option('ProjectTheme_project_expired_message')); ?></textarea></td>
+				</tr>
+				<!-- Tag list -->
+				<tr>
+					<td valign=top></td>
+					<td valign=top></td>
+					<td>
+						<div class="spntxt_bo2">
+							<?php _e('Here is a list of tags you can use in this email:','ProjectTheme'); ?><br/><br/>
+							<strong>##username##</strong> - <?php _e('Project Owner\'s Username','ProjectTheme'); ?><br/>
+							<strong>##site_login_url##</strong> - <?php _e('the link to your user login page','ProjectTheme'); ?><br/>
+							<strong>##your_site_name##</strong> - <?php _e("your website's name","ProjectTheme"); ?><br/>
+							<strong>##your_site_url##</strong> - <?php _e("your website's main address",'ProjectTheme'); ?><br/>
+							<strong>##project_name##</strong> - <?php _e("new new project's title",'ProjectTheme'); ?><br/>
+							<strong>##project_link##</strong> - <?php _e('link for the new project','ProjectTheme'); ?><br/>
+						</div>
+					</td>
+				</tr>
+				<!-- Submit button -->
+				<tr>
+					<td></td>
+					<td></td>
+					<td><input type="submit" name="ProjectTheme_project_expired_email_save" value="<?php _e('Save Options','ProjectTheme'); ?>"/></td>
+				</tr>
+			</table>
+		</form>
+	</div> 
     
     
     	<?php do_action('ProjectTheme_save_emails_contents'); ?>
