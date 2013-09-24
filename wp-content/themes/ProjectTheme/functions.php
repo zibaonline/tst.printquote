@@ -4122,7 +4122,7 @@ function projectTheme_get_post_active()
 				?>
                 
                  <a href="<?php the_permalink(); ?>"><img width="40" height="32" class="image_class" 
-                 src="/images/quote.png" /></a>
+                 src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" /></a>
                 <?php // echo ProjectTheme_get_first_post_image(get_the_ID(),40,32); ?>
                 <?php endif; ?>
                 
@@ -4329,7 +4329,7 @@ function projectTheme_get_post_main_function( $arr = '')
 				?>
                 
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img alt="<?php the_title(); ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="<?php echo $image_class; ?>" 
-                src="/images/quote.png" /></a>
+                src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" /></a>
                <?php // echo ProjectTheme_get_first_post_image(get_the_ID(),$width,$height); ?>
                <?php endif; ?>
                
@@ -4696,7 +4696,7 @@ function projectTheme_get_post_awaiting_compl_function()
 				?>
                 
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img alt="<?php the_title(); ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="<?php echo $image_class; ?>" 
-                src="/images/quote.png" /></a>
+                src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" /></a>
                
                <?php endif; ?>
                
@@ -4870,7 +4870,7 @@ function projectTheme_get_post_outstanding_project_function()
 				?>
                 
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="<?php echo $image_class; ?>" 
-                src="/images/quote.png" alt="<?php the_title(); ?>" /></a>
+                src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" alt="<?php the_title(); ?>" /></a>
                
                <?php endif; ?>
                 </div>
@@ -5033,7 +5033,7 @@ function projectTheme_get_post_pay_function( $arr = '')
 				?>
                 
                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img alt="<?php the_title(); ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" class="<?php echo $image_class; ?>" 
-                src="/images/quote.png" /></a>
+                src="<?php echo get_bloginfo('template_url'); ?>/images/quote.png" /></a>
                
                <?php endif; ?>
                
