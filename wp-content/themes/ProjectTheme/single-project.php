@@ -638,6 +638,8 @@
 	$featured     		= get_post_meta(get_the_ID(), "featured", true);
 
 	$private_bids     	= get_post_meta(get_the_ID(), "private_bids", true);
+	
+	$budgets	     	= get_post_meta(get_the_ID(), "budgets", true);
 
 	
 
@@ -1251,26 +1253,14 @@
 
                 	<ul class="project-details">
 
-							<!---<li>
-
-								<h3><?php echo __("Project Budget",'ProjectTheme'); ?>:</h3>
-
-								<p><?php echo ProjectTheme_get_budget_name_string_fromID(get_post_meta(get_the_ID(), 'budgets', true)); ?></p>
-
-							</li> --->
-
-                            
-
-                            
-
-                            <li>
+							<li>
 
 								<h3><?php echo __("Average Quote",'ProjectTheme'); ?>:</h3>
 
 								<p><?php 
 								if (projectTheme_number_of_bid(get_the_ID()) < 2)
 								{
-								echo 'Hidden until two quotes are lodged';
+								echo '-';
 								}
 								else
 								{
@@ -1311,6 +1301,8 @@
 									<p><?php echo $views; ?> <?php _e("times",'ProjectTheme');?></p> 
 				
 								</li>
+								
+								
 				
 								<?php endif; ?>
 
@@ -1334,6 +1326,9 @@
 
 							?>
 
+
+							
+							
                             <li style="text-align: center; padding-bottom: 10px;" >
 
 								<br><a href="#" class="post_bid_btn_new" rel="<?php the_ID(); ?>"><?php _e('Submit A Quote','ProjectTheme'); ?></a>
@@ -1542,7 +1537,7 @@
 
             
 
-            	<div class="box_title"><?php echo __("Description",'ProjectTheme'); ?></div>
+            	<div class="box_title"><?php echo __("Requirements",'ProjectTheme'); ?></div>
 
                 <div class="box_content">
 
@@ -1679,7 +1674,7 @@
 
             
 
-            	<div class="box_title"><?php _e("Relevant Files",'ProjectTheme'); ?></div>
+            	<div class="box_title"><?php _e("Files",'ProjectTheme'); ?></div>
 
 		<p>
 
@@ -1756,7 +1751,7 @@
 
             
 
-            	<div class="box_title"><?php echo __("Images, e.g. logos, artwork",'ProjectTheme'); ?></div>
+            	<div class="box_title"><?php echo __("Images",'ProjectTheme'); ?></div>
 
                 <div class="box_content">
 
@@ -1840,11 +1835,11 @@
 
             
 
-            	<div class="box_title"><?php echo __("Posted Quotes",'ProjectTheme'); ?> <?php
+            	<div class="box_title"><?php echo __("Quotes",'ProjectTheme'); ?> <?php
 
 				
 
-				if($private_bids == 'yes' or $private_bids == '1' or $private_bids == 1) _e('(quotes are only displayed to the client)','ProjectTheme');
+				if($private_bids == 'yes' or $private_bids == '1' or $private_bids == 1) _e('(only displayed to the client)','ProjectTheme');
 
 				
 
@@ -2609,6 +2604,8 @@ codeAddress("<?php
 	$featured     		= get_post_meta(get_the_ID(), "featured", true);
 
 	$private_bids     	= get_post_meta(get_the_ID(), "private_bids", true);
+	
+	$budgets	     	= get_post_meta(get_the_ID(), "budgets", true);
 
 	
 
@@ -3224,13 +3221,7 @@ codeAddress("<?php
 
                 	<ul class="project-details">
 
-							<!---<li>
-
-								<h3><?php echo __("Project Budget",'ProjectTheme'); ?>:</h3>
-
-								<p><?php echo ProjectTheme_get_budget_name_string_fromID(get_post_meta(get_the_ID(), 'budgets', true)); ?></p>
-
-							</li> --->
+							
 							
 							<!-- [ADDED BY RISAN] Add lowest Quote -->
 							<li>
@@ -3264,7 +3255,7 @@ codeAddress("<?php
 								<p>
 									<?php 
 										if (projectTheme_number_of_bid(get_the_ID()) < 2) {
-											echo 'Hidden until two quotes are lodged';
+											echo '-';
 										} else {
 											echo ProjectTheme_average_bid(get_the_ID());
 										}
@@ -3303,6 +3294,15 @@ codeAddress("<?php
 									<p><?php echo $views; ?> <?php _e("times",'ProjectTheme');?></p> 
 				
 								</li>
+								
+								<li>
+
+								<h3><?php echo __("Beat My Quote",'ProjectTheme'); ?>:</h3>
+
+								<p>Client would like you to beat their <a href="#" title="The existing quote has not been verified and is not a quote they have received via PrintQuote.">existing quote</a> of $<?php echo $budgets; ?></p>
+
+
+							</li>
 				
 								<?php endif; ?>
 
@@ -3534,7 +3534,7 @@ codeAddress("<?php
 
             
 
-            	<div class="box_title"><?php echo __("Description",'ProjectTheme'); ?></div>
+            	<div class="box_title"><?php echo __("Requirements",'ProjectTheme'); ?></div>
 
                 <div class="box_content">
 
@@ -3669,7 +3669,7 @@ codeAddress("<?php
 
             
 
-            	<div class="box_title"><?php _e("Relevant Files",'ProjectTheme'); ?></div>
+            	<div class="box_title"><?php _e("Files",'ProjectTheme'); ?></div>
 
 		<p>
 
@@ -3746,7 +3746,7 @@ codeAddress("<?php
 
             
 
-            	<div class="box_title"><?php echo __("Images, e.g. logos, artwork",'ProjectTheme'); ?></div>
+            	<div class="box_title"><?php echo __("Images",'ProjectTheme'); ?></div>
 
                 <div class="box_content">
 
@@ -3830,11 +3830,11 @@ codeAddress("<?php
 
             
 
-            	<div class="box_title"><?php echo __("Posted Quotes",'ProjectTheme'); ?> <?php
+            	<div class="box_title"><?php echo __("Quotes",'ProjectTheme'); ?> <?php
 
 				
 
-				if($private_bids == 'yes' or $private_bids == '1' or $private_bids == 1) _e('(quotes are only displayed to the client)','ProjectTheme');
+				if($private_bids == 'yes' or $private_bids == '1' or $private_bids == 1) _e('(only displayed to the client)','ProjectTheme');
 
 				
 

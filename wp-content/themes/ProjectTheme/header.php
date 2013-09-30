@@ -1391,7 +1391,7 @@
 
 			 
 
-			  <li><a href="<?php echo projectTheme_post_new_link(); ?>"><?php _e('Request Quotes','ProjectTheme'); ?></a></li>
+			  <li><a href="<?php echo projectTheme_post_new_link(); ?>"><?php _e('Get Quotes','ProjectTheme'); ?></a></li>
 
 			  
 

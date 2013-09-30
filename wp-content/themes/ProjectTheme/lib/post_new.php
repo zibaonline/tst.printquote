@@ -62,11 +62,26 @@ function ProjectTheme_post_new_area_function()
 
             
 
-            	<div class="box_title"><?php _e("Request A Print Quote", "ProjectTheme"); ?></div>
+            	<div class="box_title"><?php _e("Get Print Quotes", "ProjectTheme"); ?></div>
 
                 <div class="box_content"> 
+<?php if($new_Project_step == "1")
 
-                
+{ ?>
+                	<strong>Check out our cool features before getting your first quotes:</strong>
+<ul style="line-height:21px;">
+	<li>Getting quotes is totally <strong style="color: #00A2EA;">FREE</strong></li>
+	<li>Ask printers to <strong style="color: #00A2EA;">beat existing quotes</strong> (optional)</li>
+	<li><strong style="color: #00A2EA;">Stay anonomous</strong> (only the winner sees your username)</li>
+	<li>Your <strong style="color: #00A2EA;">quotes stay private</strong></li>
+	<li><strong style="color: #00A2EA;">Upload documents</strong>, images and 3d files</li>
+	<li>No middleman - <strong style="color: #00A2EA;">pay printers direct</strong></li>
+	<li><strong style="color: #00A2EA;">Receive email notifications</strong> when quotes are submitted</li>
+	
+	<li>Read our <a title="FAQs" href="<?php echo bloginfo(url); ?>/faqs/" target="_blank">FAQs</a></li>
+</ul>
+<br> 
+<?php } ?>
 
                 <?php
 
@@ -104,11 +119,11 @@ function ProjectTheme_post_new_area_function()
 
 						echo '<ul>';
 
-							echo '<li '.($new_Project_step == '1' ? "class='active_step' " : "").'>'.__("STEP 1", 'ProjectTheme').'</li>';
+							echo '<li '.($new_Project_step == '1' ? "class='active_step' " : "").'>'.__("START", 'ProjectTheme').'</li>';
 
 							do_action('ProjectTheme_after_step1_show', $new_Project_step);
 
-							echo '<li '.($new_Project_step == '2' ? "class='active_step' " : "").'>'.__("STEP 2", 'ProjectTheme').'</li>';
+							echo '<li '.($new_Project_step == '2' ? "class='active_step' " : "").'>'.__("ADD DETAILS", 'ProjectTheme').'</li>';
 
 							echo '<li '.($new_Project_step == '3' ? "class='active_step' " : "").'>'.__("PUBLISH", 'ProjectTheme').'</li>';
 
@@ -186,13 +201,16 @@ if($new_Project_step == "1")
 
         <li>
 
-        	<h2><?php echo __('Your print job title', 'ProjectTheme'); ?>:</h2>
+        	<h2><?php echo __('Print job title', 'ProjectTheme'); ?>:</h2>
+       
+        	
 
         	<p><input type="text" size="50" class="do_input" name="project_title" 
 
             value="<?php echo (empty($_POST['project_title']) ? 
 
-			($post->post_title == "Auto Draft" ? "" : $post->post_title) : $_POST['project_title']); ?>" /></p>
+			($post->post_title == "Auto Draft" ? "" : $post->post_title) : $_POST['project_title']); ?>" /><br><span style="color: #B2B2B2;">e.g. "500 Branded T-Shirts"</span></p>
+			
 
         </li>
 
@@ -208,7 +226,7 @@ if($new_Project_step == "1")
 
 			!isset($_POST['project_cat_cat']) ? (is_array($cat) ? $cat[0]->term_id : "") : $_POST['project_cat_cat']
 
-			, __("Select Category","ProjectTheme"), "do_input"); ?></p>
+			, __("Select Category","ProjectTheme"), "do_input"); ?><br><span style="color: #B2B2B2;">Notifies the right printers for your job.</span></p>
 
         </li>
 
@@ -218,13 +236,13 @@ if($new_Project_step == "1")
 
   
 
-        <!--- <li><h2><?php echo __('Price', 'ProjectTheme'); ?>:</h2>
+        <li><h2><?php echo __('Beat My Quote (optional)', 'ProjectTheme'); ?>:</h2>
 
         <p>
 
         
 
-      <?php
+      <!--- <?php
 
 	  
 
@@ -234,13 +252,14 @@ if($new_Project_step == "1")
 
 	  
 
-	  ?>
+	  ?> ---> $ <input type="text" size="10" class="do_input" name="budgets" value="" />
+	  <br><span style="color: #B2B2B2; padding-top:3px;">Have an existing quote? Enter the value here so our printers can try and beat it. <br>Note, unrealistic prices may result in fewer or no bids.</span>
 
       
 
       </p>
 
-        </li> --->
+        </li>
 
        
 
@@ -300,7 +319,7 @@ if($new_Project_step == "1")
 
 	   ?>
 
-       <p><input type="text" name="ending" id="ending" class="do_input" value="<?php echo $dt; ?>"  /></p>
+       <p><input type="text" name="ending" id="ending" class="do_input" value="<?php echo $dt; ?>"  /><br> <span style="color: #B2B2B2;">Allow 2-3 business days to maximize your quotes.</span> </p>
 
        </li>
 
@@ -369,7 +388,6 @@ if($new_Project_step == "1")
  
 
  		</script>
-
         
 
         <?php do_action('ProjectTheme_step1_before_location'); ?>
@@ -436,11 +454,11 @@ if($new_Project_step == "1")
 
         <li>
 
-        	<h2><?php echo __('Description', 'ProjectTheme'); ?>:</h2>
+        	<h2><?php echo __('Describe the job', 'ProjectTheme'); ?>:</h2>
 
         <p><textarea rows="6" cols="60" class="do_input description_edit"  name="project_description"><?php 
 
-		echo empty($_POST['project_description']) ? trim($post->post_content) : $_POST['project_description']; ?></textarea></p>
+		echo empty($_POST['project_description']) ? trim($post->post_content) : $_POST['project_description']; ?></textarea><br> <span style="color: #B2B2B2;">Images & documents can be uploaded on the next step.</span> </p>
 
         </li>
 
@@ -490,7 +508,7 @@ if($new_Project_step == "1")
 
         <p> 
 
-        <input type="submit" name="project_submit1" value="<?php _e("Next Step", 'ProjectTheme'); ?> >>" /></p>
+        <input type="submit" name="project_submit1" class="submit_bottom" value="<?php _e("Next Step", 'ProjectTheme'); ?> >>" /></p>
 
         </li>
 
@@ -612,7 +630,7 @@ if($new_Project_step == "2")
 
 			
 
-			echo sprintf(__('There is a limit for the uploaded images. The maximum number of images you can upload for this project is %s.','ProjectTheme'), $projectTheme_nr_max_of_images);		
+			echo sprintf(__('<br>There is a limit for the uploaded images. The maximum number of images you can upload for this project is %s.','ProjectTheme'), $projectTheme_nr_max_of_images);		
 
 			
 
@@ -656,7 +674,7 @@ if($new_Project_step == "2")
 
     	<li>
 
-        <h2><?php _e('Images, e.g. logo, artwork','ProjectTheme'); ?>:</h2>
+        <h2><?php _e('Upload Images','ProjectTheme'); ?>:</h2>
 
         <p>	
 
@@ -679,8 +697,8 @@ if($new_Project_step == "2")
         <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
 
         <div class="row fileupload-buttonbar">
-
-            <div class="span7">
+<br>File types allowed: .gif, .png, .jpeg
+            <div class="span7" style="padding-left:300px; padding-top:15px;">
 
                 <!-- The fileinput-button span is used to style the file input field as button -->
 
@@ -932,8 +950,8 @@ if($new_Project_step == "2")
 
 		<li>
 
-        <h2><?php _e("Files (.zip, .pdf, .doc, .docx, .stl)",'ProjectTheme'); ?>:</h2>
-
+        <h2><?php _e("Upload Files",'ProjectTheme'); ?>:</h2>
+File types allowed: .zip, .pdf, .doc, .docx, .stl  
         <p>
 
 
@@ -1094,7 +1112,7 @@ $('#thumbnails').append('<div class="div_div" id="image_ss'+bar[1]+'" > ' + bar[
 
 	?>
 
-    
+      
 
     </div>
 
@@ -1106,7 +1124,7 @@ $('#thumbnails').append('<div class="div_div" id="image_ss'+bar[1]+'" > ' + bar[
 
     
 
-    
+
 
 	</p>
 
@@ -1322,7 +1340,7 @@ $('#thumbnails').append('<div class="div_div" id="image_ss'+bar[1]+'" > ' + bar[
 
 		
 
-		echo sprintf(__("By clicking this checkbox your print job can only be seen by printers and you. %s", 'ProjectTheme'), $sl); ?></p>
+		echo sprintf(__("Tick to keep private details hidden from public view. %s", 'ProjectTheme'), $sl); ?></p>
 
         </li>
 
@@ -1356,9 +1374,9 @@ $('#thumbnails').append('<div class="div_div" id="image_ss'+bar[1]+'" > ' + bar[
 
 		?>
 
-        <p><a href="<?php echo ProjectTheme_post_new_with_pid_stuff_thg($pid, $stp); ?>" class="go_back_btn" ><?php _e('Go Back','ProjectTheme'); ?></a> 
+        <p><a href="<?php echo ProjectTheme_post_new_with_pid_stuff_thg($pid, $stp); ?>" style="padding-right:20px;" ><?php _e('Go back','ProjectTheme'); ?></a> 
 
-        <input type="submit" name="project_submit2" value="<?php _e("Next Step", 'ProjectTheme'); ?> >>" /></p>
+        <input type="submit" name="project_submit2" class="submit_bottom" value="<?php _e("Next Step", 'ProjectTheme'); ?> >>" /></p>
 
         </li>
 
@@ -1735,7 +1753,7 @@ if($new_Project_step == "3")
 			echo '<div >';
                         if( is_user_logged_in() ) {
                             if(empty($_GET['finalize'])){
-                                echo __('Thank you for requesting your free quote with us. To complete the process click Request Quotes below...','ProjectTheme');                                
+                                echo __('To start receiving quotes click "Get Quotes" below...','ProjectTheme');                                
                             }
                         }
 			update_post_meta($pid, "paid", "1");
@@ -2034,7 +2052,7 @@ if( is_user_logged_in() ) {
 	
         do_action('ProjectTheme_step3_before_finalize'); 
         
-        if($_GET['finalize'] != 1 &&  is_user_logged_in() ) { echo 'Click the "Request Quotes" button below:'; }
+        if($_GET['finalize'] != 1 &&  is_user_logged_in() ) { echo ''; }
 
 	echo '<div class="clear10"></div>';
 
@@ -2046,7 +2064,7 @@ if( is_user_logged_in() ) {
 if ( is_user_logged_in() ) { 
 	if($finalize == false)
 
-	echo '<a id="project_submit3_back_btn"  href="'. ProjectTheme_post_new_with_pid_stuff_thg($pid, '2') .'" class="submit_bottom" style="color:#FFF;text-decoration:none;padding:8px;margin-right:10px" >'.__('Go Back','ProjectTheme').'</a>';
+	echo '<a id="project_submit3_back_btn"  href="'. ProjectTheme_post_new_with_pid_stuff_thg($pid, '2') .'" style="padding:8px;margin-right:10px" >'.__('Go Back','ProjectTheme').'</a>';
 
 	
 
@@ -2054,7 +2072,7 @@ if ( is_user_logged_in() ) {
 
 	echo '<a id="project_submit3_final_btn" href="'. ProjectTheme_post_new_with_pid_stuff_thg($pid, '3', 'finalize').'" 
 
-	class="submit_bottom" style="color:#FFF;text-decoration:none;padding:8px" >'.__('Request Quotes','ProjectTheme').'</a>';
+	class="submit_bottom" style="color:#FFF;text-decoration:none;padding:8px" >'.__('Get Quotes','ProjectTheme').'</a>';
 }
 	
 
