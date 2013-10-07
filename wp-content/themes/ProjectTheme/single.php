@@ -60,6 +60,7 @@
 <?php endwhile; // end of the loop. ?>
 
 <div id="right-sidebar">
+	
     <ul class="xoxo">
         <?php dynamic_sidebar( 'single-widget-area' ); ?>
     </ul>

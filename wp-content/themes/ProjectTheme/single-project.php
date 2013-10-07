@@ -3295,14 +3295,18 @@ codeAddress("<?php
 				
 								</li>
 								
+								<?php if ($budgets != '') { ?>					
 								<li>
 
 								<h3><?php echo __("Beat My Quote",'ProjectTheme'); ?>:</h3>
-
+								
+								
 								<p>Client would like you to beat their <a href="#" title="The existing quote has not been verified and is not a quote they have received via PrintQuote.">existing quote</a> of $<?php echo $budgets; ?></p>
+								
 
-
-							</li>
+								</li>
+								<?php } ?>
+							
 				
 								<?php endif; ?>
 

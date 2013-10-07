@@ -252,7 +252,7 @@ if($new_Project_step == "1")
 
 	  
 
-	  ?> ---> $ <input type="text" size="10" class="do_input" name="budgets" value="" />
+	  ?> ---> $ <input type="text" size="10" class="do_input" name="budgets" value="" /> e.g. 1000 NZD
 	  <br><span style="color: #B2B2B2; padding-top:3px;">Have an existing quote? Enter the value here so our printers can try and beat it. <br>Note, unrealistic prices may result in fewer or no bids.</span>
 
       

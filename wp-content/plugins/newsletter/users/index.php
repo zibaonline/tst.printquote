@@ -5,7 +5,7 @@ require_once NEWSLETTER_INCLUDES_DIR . '/controls.php';
 $controls = new NewsletterControls();
 $module = NewsletterUsers::instance();
 
-$options = stripslashes_deep($_POST['options']);
+$options = $controls->data;
 $options_lists = get_option('newsletter_profile');
 $options_profile = get_option('newsletter_profile');
 $options_main = get_option('newsletter_main');
@@ -38,9 +38,13 @@ if ($controls->is_action('remove')) {
 
 // We build the query condition
 $where = "where 1=1";
-$text = $wpdb->escape(trim($controls->data['search_text']));
+$query_args = array();
+$text = trim($controls->data['search_text']);
 if ($text != '') {
-    $where .= " and (email like '%$text%' or name like '%$text%' or surname like '%$text%')";
+    $query_args[] = '%' . $text . '%';
+    $query_args[] = '%' . $text . '%';
+    $query_args[] = '%' . $text . '%';
+    $where .= " and (email like %s or name like %s or surname like %s)";
 }
 
 //if (isset($controls->data['search_test'])) {
@@ -51,12 +55,14 @@ if (!empty($controls->data['search_status'])) {
     if ($controls->data['search_status'] == 'T') {
         $where .= " and test=1";
     } else {
-        $where .= " and status='" . $wpdb->escape($controls->data['search_status']) . "'";
+        $query_args[] = $controls->data['search_status'];
+        $where .= " and status=%s";
     }
 }
     
 // Total items, total pages
 $items_per_page = 20;
+$where = $wpdb->prepare($where, $query_args);
 $count = Newsletter::instance()->store->get_count($wpdb->prefix . 'newsletter', $where);
 $last_page = floor($count / $items_per_page) - ($count % $items_per_page == 0 ? 1 : 0);
 if ($last_page < 0) $last_page = 0;
@@ -91,8 +97,7 @@ if ($controls->is_action('search')) {
 if ($controls->data['search_page'] < 0) $controls->data['search_page'] = 0;
 if ($controls->data['search_page'] > $last_page) $controls->data['search_page'] = $last_page;
 
-
-$query .= "select * from " . $wpdb->prefix . "newsletter " . $where . " order by id desc";
+$query = "select * from " . $wpdb->prefix . "newsletter " . $where . " order by id desc";
 $query .= " limit " . ($controls->data['search_page']*$items_per_page) . "," . $items_per_page;
 $list = $wpdb->get_results($query);
 
@@ -136,15 +141,15 @@ $controls->data['search_page']++;
 <tr>
     <th>Id</th>
     <th>Email/Name</th>
-    <?php if ($options['show_profile'] == 1) { ?>
+    <?php if (isset($options['show_profile']) && $options['show_profile'] == 1) { ?>
       <th>Profile</th>
     <?php } ?>
     <th>Status</th>
-    <?php if ($options['show_preferences'] == 1) { ?>
+    <?php if (isset($options['show_preferences']) && $options['show_preferences'] == 1) { ?>
       <th>Preferences</th>
     <?php } ?>
     <th>Actions</th>
-    <?php if ($options['search_clicks'] == 1) { ?>
+    <?php if (isset($options['search_clicks']) && $options['search_clicks'] == 1) { ?>
     <th>Clicks</th>
     <?php } ?>
 </tr>
@@ -161,7 +166,7 @@ $controls->data['search_page']++;
 </td>
 
 
-<?php if ($options['show_profile'] == 1) { ?>
+<?php if (isset($options['show_profile']) && $options['show_profile'] == 1) { ?>
 <td>
     <small>
     <?php
@@ -191,7 +196,7 @@ $controls->data['search_page']++;
     </small>
 </td>
 
-<?php if ($options['show_preferences'] == 1) { ?>
+<?php if (isset($options['show_preferences']) && $options['show_preferences'] == 1) { ?>
 <td>
     <small>
         <?php
