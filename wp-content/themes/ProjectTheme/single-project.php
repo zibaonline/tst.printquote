@@ -1252,6 +1252,31 @@
                 <form method="post">
 
                 	<ul class="project-details">
+                		
+                		<li>
+								<h3><?php echo __("Lowest Quote",'ProjectTheme'); ?>:</h3>
+								<p>
+									<?php 
+										// If there is no bid, show '-'
+										if (projectTheme_number_of_bid(get_the_ID()) <= 0) echo '-';
+										// Else get the lowest bid!
+										else echo ProjectTheme_lowest_bid(get_the_ID());
+									?>
+								</p>
+							</li>
+
+							<!-- [ADDED BY RISAN] Add highest Quote -->
+							<li>
+								<h3><?php echo __("Highest Quote",'ProjectTheme'); ?>:</h3>
+								<p>
+									<?php 
+										// If there is no bid, show '-'
+										if (projectTheme_number_of_bid(get_the_ID()) <= 0) echo '-';
+										// Else get the lowest bid!
+										else echo projectTheme_highest_bid(get_the_ID());
+									?>
+								</p>
+							</li>
 
 							<li>
 
@@ -1301,6 +1326,17 @@
 									<p><?php echo $views; ?> <?php _e("times",'ProjectTheme');?></p> 
 				
 								</li>
+								<?php if ($budgets != '') { ?>					
+								<li>
+
+								<h3><?php echo __("Beat My Quote",'ProjectTheme'); ?>:</h3>
+								
+								
+								<p>Client would like you to beat their <a href="#" title="The existing quote has not been verified and is not a quote they have received via PrintQuote.">existing quote</a> of $<?php echo $budgets; ?></p>
+								
+
+								</li>
+								<?php } ?>
 								
 								
 				
