@@ -1943,20 +1943,20 @@
 
 							echo '<th>'.__('Printer','ProjectTheme').'</th>';
 
-							echo '<th>'.__('Quote Amount','ProjectTheme').'</th>';
+							echo '<th>'.__('Cost','ProjectTheme').'</th>';
 
-							echo '<th>'.__('Submitted','ProjectTheme').'</th>';
+							//echo '<th>'.__('Submitted','ProjectTheme').'</th>';
 
-							echo '<th>'.__('Est. Days To Complete','ProjectTheme').'</th>';
+							echo '<th>'.__('Time','ProjectTheme').'</th>';
 							
 							if($ProjectTheme_enable_project_files != "no")
 
-								echo '<th>'.__('Quote Files','ProjectTheme').'</th>';
+								echo '<th>'.__('Files','ProjectTheme').'</th>';
 
 							if ($owner == 1)
 							 {
 							
-							echo '<th>'.__('Messaging','ProjectTheme').'</th>';
+							echo '<th>'.__('Message','ProjectTheme').'</th>';
 
 								if(empty($winner))
 
@@ -2027,28 +2027,29 @@
 
 						echo '<tr>';
 
-						echo '<th><a href="'.ProjectTheme_get_user_profile_link($user->ID).'">'.$user->user_login.'</a></th>';
+						echo '<th><img class="imgImg" width="25" height="25" src="' . ProjectTheme_get_avatar($user->ID,100,100) . '" style="margin-right: 5px; vertical-align: middle;" /> <a href="'.ProjectTheme_get_user_profile_link($user->ID).'"><strong>'.$user->user_login.'</strong></a></th>';
 
-						echo '<th>'.ProjectTheme_get_show_price($row->bid).'</th>';
+						echo '<th><strong>'.ProjectTheme_get_show_price($row->bid).'</strong></th>';
 
-						echo '<th>'.date("d-M-Y H:i:s", $row->date_made).'</th>';
+						//echo '<th>'.date("d-M-Y H:i:s", $row->date_made).'</th>';
 
-						echo '<th>'. $row->days_done .' days</th>';
+						echo '<th><strong>'. $row->days_done .' days </strong></th>';
 						
 						if($ProjectTheme_enable_project_files != "no")
 
-							echo '<th><a href="#" class="get_files" rel="'.get_the_ID().'_'.$row->uid.'">'.__('View Files','ProjectTheme').'</a></th>';
+							echo '<th><a href="#" class="get_files" rel="'.get_the_ID().'_'.$row->uid.'">'.__('View','ProjectTheme').'</a></th>';
 
 						if ($owner == 1 ) {
 
-							echo '<th><a href="'.ProjectTheme_get_priv_mess_page_url('send', '', '&uid='.$row->uid.'&pid='.get_the_ID()).'">'.__('Send Message','ProjectTheme').'</a></th>';
-							
+							echo '<th><a href="'.ProjectTheme_get_priv_mess_page_url('send', '', '&uid='.$row->uid.'&pid='.get_the_ID()).'">'.__('Send','ProjectTheme').'</a></th>';
+
 							$nr = 7;
 
 							if(empty($winner)) // == 0)
 
-								echo '<th><a href="'.get_bloginfo('siteurl').'/?p_action=choose_winner&pid='.get_the_ID().'&bid='.$row->id.'">'.__('Select','ProjectTheme').'</a></th>';						
+								echo '<th><a href="'.get_bloginfo('siteurl').'/?p_action=choose_winner&pid='.get_the_ID().'&bid='.$row->id.'" class="post_bid_btn_new">'.__('Select','ProjectTheme').'</a></th>';						
 
+							
 							}
 
 						else
@@ -2071,21 +2072,21 @@
 				
 						echo '<tr>';
 
-						echo '<th colspan="'.$nr.'">'.$row->description.'</th>';
+						echo '<th colspan="'.$nr.'" style="font-size: 12px;"><strong>Detail:</strong> ';
+						if ($row->description != '') echo $row->description; else echo 'Not provided. <a href="#" class="get_files" rel="'.get_the_ID().'_'.$row->uid.'">Check for files</a>.';
+						echo '</th>';
 
 						echo '</tr>';
 						
-						
-						
-				$arrms = ProjectTheme_get_user_fields_values($user->ID);
+						$arrms = ProjectTheme_get_user_fields_values($user->ID);
 				
 				if(count($arrms) > 0) 
 					for($i=0;$i<count($arrms);$i++)
 					{
 				
                 echo '
-					<tr><th class="my_td_with_border" colspan="'.$nr.'" width="300">
-					<pre><strong>'.$arrms[$i]['field_name'].' ('.$user->user_login.')</strong><br>'.$arrms[$i]['field_value'].'</pre></th></tr>
+					<tr><th class="my_td_with_border" style="padding-bottom:20px;font-size: 12px;" colspan="'.$nr.'" width="300">
+					<strong>'.$arrms[$i]['field_name'].':</strong> '.$arrms[$i]['field_value'].'</th></tr>
                 ';
 					}
 
@@ -3940,22 +3941,22 @@ codeAddress("<?php
 
 						echo '<thead><tr>';
 
-							echo '<th>'.__('Username','ProjectTheme').'</th>';
+							echo '<th>'.__('Printer','ProjectTheme').'</th>';
 
-							echo '<th>'.__('Bid Amount','ProjectTheme').'</th>';
+							echo '<th>'.__('Cost','ProjectTheme').'</th>';
 
-							echo '<th>'.__('Submitted','ProjectTheme').'</th>';
+							//echo '<th>'.__('Submitted','ProjectTheme').'</th>';
 
-							echo '<th>'.__('Days to Complete','ProjectTheme').'</th>';
+							echo '<th>'.__('Time','ProjectTheme').'</th>';
 							
 							if($ProjectTheme_enable_project_files != "no")
 
-								echo '<th>'.__('Quote Files','ProjectTheme').'</th>';
+								echo '<th>'.__('Files','ProjectTheme').'</th>';
 
 							if ($owner == 1)
 							 {
 							
-							echo '<th>'.__('Messaging','ProjectTheme').'</th>';
+							echo '<th>'.__('Message','ProjectTheme').'</th>';
 
 								if(empty($winner))
 
@@ -4025,27 +4026,27 @@ codeAddress("<?php
 
 						echo '<tr>';
 
-						echo '<th><a href="'.ProjectTheme_get_user_profile_link($user->ID).'">'.$user->user_login.'</a></th>';
+						echo '<th><img class="imgImg" width="25" height="25" src="' . ProjectTheme_get_avatar($user->ID,100,100) . '" style="margin-right: 5px; vertical-align: middle;" /> <a href="'.ProjectTheme_get_user_profile_link($user->ID).'"><strong>'.$user->user_login.'</strong></a></th>';
 
-						echo '<th>'.ProjectTheme_get_show_price($row->bid).'</th>';
+						echo '<th><strong>'.ProjectTheme_get_show_price($row->bid).'</strong></th>';
 
-						echo '<th>'.date("d-M-Y H:i:s", $row->date_made).'</th>';
+						//echo '<th>'.date("d-M-Y H:i:s", $row->date_made).'</th>';
 
-						echo '<th>'. $row->days_done .' days</th>';
+						echo '<th><strong>'. $row->days_done .' days </strong></th>';
 						
 						if($ProjectTheme_enable_project_files != "no")
 
-							echo '<th><a href="#" class="get_files" rel="'.get_the_ID().'_'.$row->uid.'">'.__('View Files','ProjectTheme').'</a></th>';
+							echo '<th><a href="#" class="get_files" rel="'.get_the_ID().'_'.$row->uid.'">'.__('View','ProjectTheme').'</a></th>';
 
 						if ($owner == 1 ) {
 
-							echo '<th><a href="'.ProjectTheme_get_priv_mess_page_url('send', '', '&uid='.$row->uid.'&pid='.get_the_ID()).'">'.__('Send Message','ProjectTheme').'</a></th>';
+							echo '<th><a href="'.ProjectTheme_get_priv_mess_page_url('send', '', '&uid='.$row->uid.'&pid='.get_the_ID()).'">'.__('Send','ProjectTheme').'</a></th>';
 
 							$nr = 7;
 
 							if(empty($winner)) // == 0)
 
-								echo '<th><a href="'.get_bloginfo('siteurl').'/?p_action=choose_winner&pid='.get_the_ID().'&bid='.$row->id.'">'.__('Select','ProjectTheme').'</a></th>';						
+								echo '<th><a href="'.get_bloginfo('siteurl').'/?p_action=choose_winner&pid='.get_the_ID().'&bid='.$row->id.'" class="post_bid_btn_new">'.__('Select','ProjectTheme').'</a></th>';						
 
 							
 
@@ -4071,7 +4072,9 @@ codeAddress("<?php
 
 						echo '<tr>';
 
-						echo '<th colspan="'.$nr.'" class="my_td_with_border">'.$row->description.'</th>';
+						echo '<th colspan="'.$nr.'" style="font-size: 12px;"><strong>Detail:</strong> ';
+						if ($row->description != '') echo $row->description; else echo 'Not provided. <a href="#" class="get_files" rel="'.get_the_ID().'_'.$row->uid.'">Check for files</a>.';
+						echo '</th>';
 
 						echo '</tr>';
 						
@@ -4082,8 +4085,8 @@ codeAddress("<?php
 					{
 				
                 echo '
-					<tr><th class="my_td_with_border" colspan="'.$nr.'" width="300">
-					<pre><strong>'.$arrms[$i]['field_name'].' ('.$user->user_login.')</strong><br>'.$arrms[$i]['field_value'].'</pre></th></tr>
+					<tr><th class="my_td_with_border" style="padding-bottom:20px;font-size: 12px;" colspan="'.$nr.'" width="300">
+					<strong>'.$arrms[$i]['field_name'].':</strong> '.$arrms[$i]['field_value'].'</th></tr>
                 ';
 					}
 
