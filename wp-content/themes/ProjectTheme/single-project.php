@@ -1903,7 +1903,7 @@
 
 			
 
-				if($post->post_author == $uid) $owner = 1; else $owner = 0;
+				if($post->post_author == $uid || $is_administrator) $owner = 1; else $owner = 0;
 
 				
 
@@ -3902,7 +3902,7 @@ codeAddress("<?php
 
 			
 
-				if($post->post_author == $uid) $owner = 1; else $owner = 0;
+				if($post->post_author == $uid || $is_administrator) $owner = 1; else $owner = 0;
 
 				
 
